@@ -1,0 +1,18 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_d4fevccf34m29lijul7g",
+    "operations": [
+      {
+        "drop_table": {
+          "name": "bus_services"
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_d4fevccf34m29lijul7g",
+  "parent": "mig_d4fbo7cf34m29lijujj0",
+  "schema": "public",
+  "startedAt": "2025-11-20T10:38:42.969634Z"
+}

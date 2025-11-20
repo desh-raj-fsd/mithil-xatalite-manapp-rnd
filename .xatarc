@@ -1,0 +1,7 @@
+{
+  "databaseURL": "https://ManApp-35a8tu.us-east-1.xata.sh/db/ManApp",
+  "codegen": {
+    "output": "src/xata.js",
+    "moduleType": "esm"
+  }
+}

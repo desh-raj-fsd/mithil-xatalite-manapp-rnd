@@ -1,0 +1,117 @@
+[
+  {
+    "stop_id": 1,
+    "stop_name": "Noble's Hospital, main entrance",
+    "description": ""
+  },
+  {
+    "stop_id": 2,
+    "stop_name": "Cronkbourne, shelter",
+    "description": ""
+  },
+  {
+    "stop_id": 3,
+    "stop_name": "Willaston, shops",
+    "description": ""
+  },
+  {
+    "stop_id": 4,
+    "stop_name": "Hailwood Avenue, Cat With No Tail",
+    "description": ""
+  },
+  {
+    "stop_id": 5,
+    "stop_name": "Birch Hill, shop",
+    "description": ""
+  },
+  {
+    "stop_id": 6,
+    "stop_name": "Royal Avenue, Central Drive",
+    "description": ""
+  },
+  {
+    "stop_id": 7,
+    "stop_name": "Ballachrink, shop",
+    "description": ""
+  },
+  {
+    "stop_id": 8,
+    "stop_name": "Windermere Drive, Windermere Avenue",
+    "description": ""
+  },
+  {
+    "stop_id": 9,
+    "stop_name": "Port Jack, shelter",
+    "description": ""
+  },
+  {
+    "stop_id": 10,
+    "stop_name": "Derby Castle, MER Station",
+    "description": ""
+  },
+  {
+    "stop_id": 11,
+    "stop_name": "Douglas, Lord Street Stand C, arr *",
+    "description": ""
+  },
+  {
+    "stop_id": 12,
+    "stop_name": "Douglas, Lord Street Stand C, dep *",
+    "description": ""
+  },
+  {
+    "stop_id": 13,
+    "stop_name": "Groves Road, NSC",
+    "description": ""
+  },
+  {
+    "stop_id": 14,
+    "stop_name": "Newtown, Old Chapel",
+    "description": ""
+  },
+  {
+    "stop_id": 15,
+    "stop_name": "Ballasalla Railway Station",
+    "description": ""
+  },
+  {
+    "stop_id": 16,
+    "stop_name": "Ronaldsway Airport",
+    "description": ""
+  },
+  {
+    "stop_id": 17,
+    "stop_name": "Castletown Square, Co-op",
+    "description": ""
+  },
+  {
+    "stop_id": 18,
+    "stop_name": "Colby Bridge, Methodist Church",
+    "description": ""
+  },
+  {
+    "stop_id": 19,
+    "stop_name": "Gansey, opposite Shore Hotel",
+    "description": ""
+  },
+  {
+    "stop_id": 20,
+    "stop_name": "Port St. Mary, Harbour, dep",
+    "description": ""
+  },
+  {
+    "stop_id": 21,
+    "stop_name": "Port Erin, Railway Station, arr",
+    "description": ""
+  },
+  {
+    "stop_id": 22,
+    "stop_name": "Port Erin, Railway Station, dep",
+    "description": ""
+  },
+  {
+    "stop_id": 23,
+    "stop_name": "Port St. Mary, Harbour, arr",
+    "description": ""
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "name": "xatalite-rnd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "schema-update": "xata pull main",
+    "extract": "node .\\scripts\\index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desh-raj-fsd/mithil-xatalite-manapp-rnd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/desh-raj-fsd/mithil-xatalite-manapp-rnd/issues"
+  },
+  "homepage": "https://github.com/desh-raj-fsd/mithil-xatalite-manapp-rnd#readme",
+  "description": "",
+  "dependencies": {
+    "@xata.io/client": "^0.0.0-next.v93343b9646f57a1e5c51c35eccf0767c2bb80baa",
+    "dotenv": "^17.2.3",
+    "fs": "^0.0.1-security",
+    "xlsx": "^0.18.5"
+  }
+}

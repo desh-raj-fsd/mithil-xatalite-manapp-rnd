@@ -1,0 +1,16 @@
+tables:
+  - name: stops
+    columns:
+      - name: stop_name
+        type: string
+      - name: description
+        type: string
+
+  - name: bus_services
+    columns:
+      - name: service_number
+        type: string
+      - name: service_name
+        type: string
+      - name: description
+        type: text

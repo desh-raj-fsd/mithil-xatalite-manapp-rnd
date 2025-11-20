@@ -1,0 +1,32 @@
+[
+  {
+    "service_id": 1,
+    "service_number": "1",
+    "service_name": "Noble's Hospital - Port Erin",
+    "description": "Main route between Noble's Hospital and Port Erin"
+  },
+  {
+    "service_id": 2,
+    "service_number": "2",
+    "service_name": "Ballachrink - Port Erin",
+    "description": "Route between Ballachrink and Port Erin"
+  },
+  {
+    "service_id": 3,
+    "service_number": "12",
+    "service_name": "Willaston - Port Erin",
+    "description": "Route between Willaston and Port Erin via Castletown"
+  },
+  {
+    "service_id": 4,
+    "service_number": "12a",
+    "service_name": "Willaston - Port Erin",
+    "description": "Route between Willaston and Port Erin via Castletown"
+  },
+  {
+    "service_id": 5,
+    "service_number": "1a",
+    "service_name": "Noble's Hospital - Port Erin",
+    "description": "Main route between Noble's Hospital and Port Erin"
+  }
+]

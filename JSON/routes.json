@@ -1,0 +1,27 @@
+[
+  {
+    "route_id": 1,
+    "service_id": 1,
+    "route_name": "Noble's Hospital - Port Erin"
+  },
+  {
+    "route_id": 2,
+    "service_id": 2,
+    "route_name": "Ballachrink - Port Erin"
+  },
+  {
+    "route_id": 3,
+    "service_id": 3,
+    "route_name": "Willaston - Port Erin"
+  },
+  {
+    "route_id": 4,
+    "service_id": 4,
+    "route_name": "Willaston - Port Erin"
+  },
+  {
+    "route_id": 5,
+    "service_id": 5,
+    "route_name": "Noble's Hospital - Port Erin"
+  }
+]
