@@ -1,17 +1,16 @@
-import { excelToJSON, extractFieldFromJSON } from "./excelParser.js";
+import { excelToJSON } from "./excelParser.js";
 import { extractData } from "./extract_data.js";
 
 async function convertAndExtract() {
   try {
     const result = await excelToJSON(
-      "./XLSX/data.xlsx",
+      "./src/XLSX/data.xlsx",
       "output",
       "Table_2",
-      "./JSON"
+      "./src/JSON"
     );
 
     console.log("\n--- Excel conversion complete ---\n");
-;
   } catch (error) {
     console.error("Error:", error);
   }

@@ -3,7 +3,7 @@ import { readFileSync } from "fs";
 
 function extractData() {
   // Read the input data
-  const rawData = JSON.parse(readFileSync("./JSON/output.json", "utf-8"));
+  const rawData = JSON.parse(readFileSync("./src/JSON/output.json", "utf-8"));
 
   // Initialize data structures
   const busServices = [];
@@ -189,18 +189,18 @@ function extractData() {
 
   // Write all data to separate JSON files
   fs.writeFileSync(
-    "./JSON/bus_services.json",
+    "./src/JSON/bus_services.json",
     JSON.stringify(busServices, null, 2)
   );
-  fs.writeFileSync("./JSON/stops.json", JSON.stringify(stops, null, 2));
-  fs.writeFileSync("./JSON/routes.json", JSON.stringify(routes, null, 2));
+  fs.writeFileSync("./src/JSON/stops.json", JSON.stringify(stops, null, 2));
+  fs.writeFileSync("./src/JSON/routes.json", JSON.stringify(routes, null, 2));
   fs.writeFileSync(
-    "./JSON/route_stops.json",
+    "./src/JSON/route_stops.json",
     JSON.stringify(routeStops, null, 2)
   );
-  fs.writeFileSync("./JSON/trips.json", JSON.stringify(trips, null, 2));
+  fs.writeFileSync("./src/JSON/trips.json", JSON.stringify(trips, null, 2));
   fs.writeFileSync(
-    "./JSON/stop_times.json",
+    "./src/JSON/stop_times.json",
     JSON.stringify(stopTimes, null, 2)
   );
 
