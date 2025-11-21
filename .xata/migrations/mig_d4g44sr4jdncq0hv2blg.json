@@ -1,0 +1,24 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_d4g44sr4jdncq0hv2blg",
+    "operations": [
+      {
+        "add_column": {
+          "table": "bus_services",
+          "column": {
+            "name": "service_id",
+            "type": "int",
+            "comment": "",
+            "nullable": true
+          }
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_d4g44sr4jdncq0hv2blg",
+  "parent": "mig_d4g442j4jdncq0hv2bk0",
+  "schema": "public",
+  "startedAt": "2025-11-21T10:44:04.159832Z"
+}

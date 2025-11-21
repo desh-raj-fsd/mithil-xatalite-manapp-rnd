@@ -1,0 +1,24 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_d4g4cbe2nqcg7v1drkm0",
+    "operations": [
+      {
+        "add_column": {
+          "table": "stops",
+          "column": {
+            "name": "stop_id",
+            "type": "int",
+            "comment": "",
+            "nullable": true
+          }
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_d4g4cbe2nqcg7v1drkm0",
+  "parent": "mig_d4g4am34jdncq0hv2bmg",
+  "schema": "public",
+  "startedAt": "2025-11-21T10:59:58.68175Z"
+}

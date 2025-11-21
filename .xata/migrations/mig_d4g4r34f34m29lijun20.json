@@ -1,0 +1,22 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_d4g4r34f34m29lijun20",
+    "operations": [
+      {
+        "alter_column": {
+          "up": "(SELECT CASE WHEN \"service_id\" IS NULL THEN 0 ELSE \"service_id\" END)",
+          "down": "(SELECT CASE WHEN \"service_id\" IS NULL THEN 0 ELSE \"service_id\" END)",
+          "table": "bus_services",
+          "column": "service_id",
+          "nullable": false
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_d4g4r34f34m29lijun20",
+  "parent": "mig_d4g4q634jdncq0hv2bpg",
+  "schema": "public",
+  "startedAt": "2025-11-21T11:31:25.648573Z"
+}

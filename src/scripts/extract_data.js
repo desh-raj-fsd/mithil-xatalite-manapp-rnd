@@ -87,7 +87,7 @@ function extractData() {
   busServices.forEach((service) => {
     routes.push({
       route_id: routeIdCounter,
-      service_id: service.service_id,
+      service_id: "",
       route_name: service.service_name,
     });
     routeIdCounter++;
@@ -117,8 +117,8 @@ function extractData() {
       if (hasStop) {
         routeStops.push({
           route_stop_id: routeStopIdCounter,
-          route_id: routeId,
-          stop_id: stopId,
+          route_id: "",
+          stop_id: "",
           sequence_number: sequenceNumber,
         });
         routeStopIdCounter++;
@@ -148,8 +148,8 @@ function extractData() {
     if (startTime) {
       trips.push({
         trip_id: tripIdCounter,
-        route_id: routeId,
-        service_id: serviceId,
+        route_id: "",
+        service_id: "",
         start_time: startTime,
         day_of_week: "Weekday",
         column_reference: columnKey,
@@ -174,8 +174,8 @@ function extractData() {
 
         stopTimes.push({
           stop_time_id: stopTimeIdCounter,
-          trip_id: currentTripId,
-          route_stop_id: routeStop.route_stop_id,
+          trip_id: "",
+          route_stop_id: "",
           departure_time: isSkipped ? null : departureTime,
           is_skipped: isSkipped,
         });

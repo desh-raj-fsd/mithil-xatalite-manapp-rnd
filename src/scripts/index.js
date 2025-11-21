@@ -1,5 +1,6 @@
 import { excelToJSON } from "./excelParser.js";
 import { extractData } from "./extract_data.js";
+import { seedBusServices, seedStops, seedRoutes } from "./seeding.js";
 
 async function convertAndExtract() {
   try {
@@ -23,3 +24,7 @@ try {
 } catch (error) {
   console.error("Error: ", error);
 }
+
+seedBusServices().catch(console.error);
+seedStops().catch(console.error);
+seedRoutes().catch(console.error);
