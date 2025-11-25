@@ -19,10 +19,6 @@ const tables = [
         name: "_pgroll_new_bus_services_xata_id_key",
         columns: ["xata_id"],
       },
-      bus_services_service_id_unique: {
-        name: "bus_services_service_id_unique",
-        columns: ["service_id"],
-      },
     },
     columns: [
       {
@@ -30,14 +26,6 @@ const tables = [
         type: "text",
         notNull: false,
         unique: false,
-        defaultValue: null,
-        comment: "",
-      },
-      {
-        name: "service_id",
-        type: "int",
-        notNull: true,
-        unique: true,
         defaultValue: null,
         comment: "",
       },
@@ -92,6 +80,99 @@ const tables = [
     ],
   },
   {
+    name: "route_stops",
+    checkConstraints: {
+      route_stops_xata_id_length_xata_id: {
+        name: "route_stops_xata_id_length_xata_id",
+        columns: ["xata_id"],
+        definition: "CHECK ((length(xata_id) < 256))",
+      },
+    },
+    foreignKeys: {
+      route_id_link: {
+        name: "route_id_link",
+        columns: ["route_id"],
+        referencedTable: "routes",
+        referencedColumns: ["xata_id"],
+        onDelete: "SET NULL",
+      },
+      stop_id_link: {
+        name: "stop_id_link",
+        columns: ["stop_id"],
+        referencedTable: "stops",
+        referencedColumns: ["xata_id"],
+        onDelete: "SET NULL",
+      },
+    },
+    primaryKey: [],
+    uniqueConstraints: {
+      _pgroll_new_route_stops_xata_id_key: {
+        name: "_pgroll_new_route_stops_xata_id_key",
+        columns: ["xata_id"],
+      },
+    },
+    columns: [
+      {
+        name: "route_id",
+        type: "link",
+        link: { table: "routes" },
+        notNull: false,
+        unique: false,
+        defaultValue: null,
+        comment: '{"xata.link":"routes"}',
+      },
+      {
+        name: "sequence_number",
+        type: "int",
+        notNull: false,
+        unique: false,
+        defaultValue: null,
+        comment: "",
+      },
+      {
+        name: "stop_id",
+        type: "link",
+        link: { table: "stops" },
+        notNull: false,
+        unique: false,
+        defaultValue: null,
+        comment: '{"xata.link":"stops"}',
+      },
+      {
+        name: "xata_createdat",
+        type: "datetime",
+        notNull: true,
+        unique: false,
+        defaultValue: "now()",
+        comment: "",
+      },
+      {
+        name: "xata_id",
+        type: "text",
+        notNull: true,
+        unique: true,
+        defaultValue: "('rec_'::text || (xata_private.xid())::text)",
+        comment: "",
+      },
+      {
+        name: "xata_updatedat",
+        type: "datetime",
+        notNull: true,
+        unique: false,
+        defaultValue: "now()",
+        comment: "",
+      },
+      {
+        name: "xata_version",
+        type: "int",
+        notNull: true,
+        unique: false,
+        defaultValue: "0",
+        comment: "",
+      },
+    ],
+  },
+  {
     name: "routes",
     checkConstraints: {
       routes_xata_id_length_xata_id: {
@@ -100,7 +181,15 @@ const tables = [
         definition: "CHECK ((length(xata_id) < 256))",
       },
     },
-    foreignKeys: {},
+    foreignKeys: {
+      service_id_link: {
+        name: "service_id_link",
+        columns: ["service_id"],
+        referencedTable: "bus_services",
+        referencedColumns: ["xata_id"],
+        onDelete: "SET NULL",
+      },
+    },
     primaryKey: [],
     uniqueConstraints: {
       _pgroll_new_routes_xata_id_key: {
@@ -109,14 +198,6 @@ const tables = [
       },
     },
     columns: [
-      {
-        name: "route_id",
-        type: "int",
-        notNull: false,
-        unique: false,
-        defaultValue: null,
-        comment: "",
-      },
       {
         name: "route_name",
         type: "text",
@@ -127,11 +208,12 @@ const tables = [
       },
       {
         name: "service_id",
-        type: "text",
+        type: "link",
+        link: { table: "bus_services" },
         notNull: false,
         unique: false,
         defaultValue: null,
-        comment: "",
+        comment: '{"xata.link":"bus_services"}',
       },
       {
         name: "xata_createdat",
@@ -194,16 +276,109 @@ const tables = [
         comment: "",
       },
       {
-        name: "stop_id",
-        type: "int",
+        name: "stop_name",
+        type: "text",
         notNull: false,
         unique: false,
         defaultValue: null,
         comment: "",
       },
       {
-        name: "stop_name",
+        name: "xata_createdat",
+        type: "datetime",
+        notNull: true,
+        unique: false,
+        defaultValue: "now()",
+        comment: "",
+      },
+      {
+        name: "xata_id",
         type: "text",
+        notNull: true,
+        unique: true,
+        defaultValue: "('rec_'::text || (xata_private.xid())::text)",
+        comment: "",
+      },
+      {
+        name: "xata_updatedat",
+        type: "datetime",
+        notNull: true,
+        unique: false,
+        defaultValue: "now()",
+        comment: "",
+      },
+      {
+        name: "xata_version",
+        type: "int",
+        notNull: true,
+        unique: false,
+        defaultValue: "0",
+        comment: "",
+      },
+    ],
+  },
+  {
+    name: "trips",
+    checkConstraints: {
+      trips_xata_id_length_xata_id: {
+        name: "trips_xata_id_length_xata_id",
+        columns: ["xata_id"],
+        definition: "CHECK ((length(xata_id) < 256))",
+      },
+    },
+    foreignKeys: {
+      route_id_link: {
+        name: "route_id_link",
+        columns: ["route_id"],
+        referencedTable: "routes",
+        referencedColumns: ["xata_id"],
+        onDelete: "SET NULL",
+      },
+      service_id_link: {
+        name: "service_id_link",
+        columns: ["service_id"],
+        referencedTable: "bus_services",
+        referencedColumns: ["xata_id"],
+        onDelete: "SET NULL",
+      },
+    },
+    primaryKey: [],
+    uniqueConstraints: {
+      _pgroll_new_trips_xata_id_key: {
+        name: "_pgroll_new_trips_xata_id_key",
+        columns: ["xata_id"],
+      },
+    },
+    columns: [
+      {
+        name: "day_of_week",
+        type: "text",
+        notNull: false,
+        unique: false,
+        defaultValue: null,
+        comment: "",
+      },
+      {
+        name: "route_id",
+        type: "link",
+        link: { table: "routes" },
+        notNull: false,
+        unique: false,
+        defaultValue: null,
+        comment: '{"xata.link":"routes"}',
+      },
+      {
+        name: "service_id",
+        type: "link",
+        link: { table: "bus_services" },
+        notNull: false,
+        unique: false,
+        defaultValue: null,
+        comment: '{"xata.link":"bus_services"}',
+      },
+      {
+        name: "start_time",
+        type: "int",
         notNull: false,
         unique: false,
         defaultValue: null,

@@ -1,0 +1,24 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_d4ip39e2nqcg7v1drsj0",
+    "operations": [
+      {
+        "add_column": {
+          "table": "route_stops",
+          "column": {
+            "name": "sequence_number",
+            "type": "int",
+            "comment": "",
+            "nullable": true
+          }
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_d4ip39e2nqcg7v1drsj0",
+  "parent": "mig_d4ip1134jdncq0hv2hmg",
+  "schema": "public",
+  "startedAt": "2025-11-25T11:23:18.206643Z"
+}

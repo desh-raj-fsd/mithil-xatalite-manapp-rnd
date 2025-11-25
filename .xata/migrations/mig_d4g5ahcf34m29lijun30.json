@@ -1,0 +1,19 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_d4g5ahcf34m29lijun30",
+    "operations": [
+      {
+        "drop_column": {
+          "table": "routes",
+          "column": "service_id"
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_d4g5ahcf34m29lijun30",
+  "parent": "mig_d4g4rlj4jdncq0hv2bqg",
+  "schema": "public",
+  "startedAt": "2025-11-21T12:04:22.991811Z"
+}

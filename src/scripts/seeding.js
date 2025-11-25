@@ -2,86 +2,137 @@ import { XataClient } from "../xata.js";
 import fs from "fs/promises";
 import "dotenv/config";
 
+// Helper to build FK mapping (natural id -> xata id)
+async function buildIdMap(xata, table, naturalKey) {
+  const records = await xata.db[table].getAll();
+  const map = {};
+  for (const row of records) map[row[naturalKey]] = row.xata_id;
+  return map;
+}
+
 async function seedBusServices() {
-  // Initialize Xata client with API key from env
   const xata = new XataClient({
     apiKey: process.env.XATA_API_KEY,
     branch: "main",
   });
-
-  // Read JSON data from file
   const data = await fs.readFile("./src/JSON/bus_services.json", "utf-8");
   const busServices = JSON.parse(data);
 
+  // No explicit id
   for (const service of busServices) {
     try {
       await xata.db.bus_services.create({
-        service_id: service.service_id,
         service_number: service.service_number,
         service_name: service.service_name,
         description: service.description,
       });
-      console.log(`Inserted service ${service.service_id}`);
     } catch (error) {
-      console.error(`Error inserting service ${service.service_id}:`, error);
+      console.error(
+        `Error inserting service ${service.service_number}:`,
+        error
+      );
     }
   }
-
-  console.log("Bus services seeding completed");
 }
 
 async function seedStops() {
-  // Initialize Xata client with API key from env
   const xata = new XataClient({
     apiKey: process.env.XATA_API_KEY,
     branch: "main",
   });
-
-  // Read JSON data from file
   const data = await fs.readFile("./src/JSON/stops.json", "utf-8");
   const stops = JSON.parse(data);
-
   for (const stop of stops) {
     try {
       await xata.db.stops.create({
-        stop_id: stop.stop_id,
         stop_name: stop.stop_name,
         description: stop.description,
       });
-      console.log(`Inserted stop ${stop.stop_id}`);
     } catch (error) {
-      console.error(`Error inserting stop ${stop.stop_id}:`, error);
+      console.error(`Error inserting stop ${stop.stop_name}:`, error);
     }
   }
-
-  console.log("Bus stops seeding completed");
 }
 
 async function seedRoutes() {
-  // Initialize Xata client with API key from env
   const xata = new XataClient({
     apiKey: process.env.XATA_API_KEY,
     branch: "main",
   });
-
-  // Read JSON data from file
   const data = await fs.readFile("./src/JSON/routes.json", "utf-8");
   const routes = JSON.parse(data);
-
+  // Lookup services by number for FK
+  const serviceMap = await buildIdMap(xata, "bus_services", "service_number");
   for (const route of routes) {
     try {
       await xata.db.routes.create({
-        route_id: route.route_id,
         route_name: route.route_name,
-        service_id: route.service_id,
+        service_id: serviceMap[route.service_id], // route.service_id is the old numeric key, now use FK
       });
-      console.log(`Inserted route ${route.route_id}`);
     } catch (error) {
-      console.error(`Error inserting route ${route.route_id}:`, error);
+      console.error(`Error inserting route ${route.route_name}:`, error);
     }
   }
-
-  console.log("Routes seeding completed");
 }
-export {seedBusServices, seedStops, seedRoutes}
 
+async function seedTrips() {
+  const xata = new XataClient({
+    apiKey: process.env.XATA_API_KEY,
+    branch: "main",
+  });
+  const data = await fs.readFile("./src/JSON/trips.json", "utf-8");
+  const trips = JSON.parse(data);
+  const routeMap = await buildIdMap(xata, "routes", "route_name");
+  const serviceMap = await buildIdMap(xata, "bus_services", "service_number");
+
+  for (const trip of trips) {
+    try {
+      // Always coerce start_time to integer, handle strings like "0851"
+      let intStart = parseInt(trip.start_time, 10);
+      if (isNaN(intStart)) {
+        console.warn(
+          `Skipping invalid start_time on trip ${trip.trip_id}:`,
+          trip.start_time
+        );
+        continue; // Or set intStart = 0 if preferred
+      }
+      await xata.db.trips.create({
+        start_time: intStart,
+        day_of_week: trip.day_of_week,
+        route_id: routeMap[trip.route_id],
+        service_id: serviceMap[trip.service_id],
+        // column_reference: trip.column_reference,
+      });
+    } catch (error) {
+      console.error(`Error inserting trip ${trip.trip_id}:`, error);
+    }
+  }
+}
+
+
+async function seedRouteStops() {
+  const xata = new XataClient({
+    apiKey: process.env.XATA_API_KEY,
+    branch: "main",
+  });
+  const data = await fs.readFile("./src/JSON/route_stops.json", "utf-8");
+  const routeStops = JSON.parse(data);
+  const routeMap = await buildIdMap(xata, "routes", "route_name");
+  const stopMap = await buildIdMap(xata, "stops", "stop_name");
+  for (const rs of routeStops) {
+    try {
+      await xata.db.route_stops.create({
+        route_id: routeMap[rs.route_id],
+        stop_id: stopMap[rs.stop_id],
+        sequence_number: rs.sequence_number,
+      });
+    } catch (error) {
+      console.error(
+        `Error inserting route stop seq ${rs.sequence_number}:`,
+        error
+      );
+    }
+  }
+}
+
+export { seedBusServices, seedStops, seedRoutes, seedTrips, seedRouteStops };

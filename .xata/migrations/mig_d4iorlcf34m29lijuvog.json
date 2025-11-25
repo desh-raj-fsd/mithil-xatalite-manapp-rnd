@@ -1,0 +1,30 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_d4iorlcf34m29lijuvog",
+    "operations": [
+      {
+        "add_column": {
+          "table": "trips",
+          "column": {
+            "name": "service_id",
+            "type": "text",
+            "comment": "{\"xata.link\":\"bus_services\"}",
+            "nullable": true,
+            "references": {
+              "name": "service_id_link",
+              "table": "bus_services",
+              "column": "xata_id",
+              "on_delete": "SET NULL"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_d4iorlcf34m29lijuvog",
+  "parent": "mig_d4ioh434jdncq0hv2hl0",
+  "schema": "public",
+  "startedAt": "2025-11-25T11:07:02.883437Z"
+}

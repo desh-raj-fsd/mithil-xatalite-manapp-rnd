@@ -1,0 +1,24 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_d4ioc9b4jdncq0hv2hk0",
+    "operations": [
+      {
+        "add_column": {
+          "table": "trips",
+          "column": {
+            "name": "day_of_week",
+            "type": "text",
+            "comment": "",
+            "nullable": true
+          }
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_d4ioc9b4jdncq0hv2hk0",
+  "parent": "mig_d4ioanj4jdncq0hv2hj0",
+  "schema": "public",
+  "startedAt": "2025-11-25T10:34:13.784932Z"
+}

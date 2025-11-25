@@ -1,1 +1,3061 @@
-[]
+[
+  {
+    "stop_time_id": 1001,
+    "trip_id": 101,
+    "route_stop_id": 1,
+    "departure_time": "0851",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1002,
+    "trip_id": 101,
+    "route_stop_id": 2,
+    "departure_time": "0855",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1003,
+    "trip_id": 101,
+    "route_stop_id": 3,
+    "departure_time": "0859",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1004,
+    "trip_id": 101,
+    "route_stop_id": 4,
+    "departure_time": "0908",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1005,
+    "trip_id": 101,
+    "route_stop_id": 5,
+    "departure_time": "0910",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1006,
+    "trip_id": 101,
+    "route_stop_id": 6,
+    "departure_time": "0911",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1007,
+    "trip_id": 101,
+    "route_stop_id": 7,
+    "departure_time": "0922",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1008,
+    "trip_id": 101,
+    "route_stop_id": 8,
+    "departure_time": "0930",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1009,
+    "trip_id": 101,
+    "route_stop_id": 9,
+    "departure_time": "0937",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1010,
+    "trip_id": 101,
+    "route_stop_id": 10,
+    "departure_time": "0945",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1011,
+    "trip_id": 101,
+    "route_stop_id": 11,
+    "departure_time": "0953",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1012,
+    "trip_id": 101,
+    "route_stop_id": 12,
+    "departure_time": "0957",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1013,
+    "trip_id": 101,
+    "route_stop_id": 13,
+    "departure_time": "1005",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1014,
+    "trip_id": 101,
+    "route_stop_id": 14,
+    "departure_time": "1015",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1015,
+    "trip_id": 101,
+    "route_stop_id": 15,
+    "departure_time": "1023",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1016,
+    "trip_id": 101,
+    "route_stop_id": 16,
+    "departure_time": "1030",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1017,
+    "trip_id": 101,
+    "route_stop_id": 17,
+    "departure_time": "1039",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1018,
+    "trip_id": 102,
+    "route_stop_id": 18,
+    "departure_time": 918,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1019,
+    "trip_id": 102,
+    "route_stop_id": 19,
+    "departure_time": 923,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1020,
+    "trip_id": 102,
+    "route_stop_id": 20,
+    "departure_time": 930,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1021,
+    "trip_id": 102,
+    "route_stop_id": 21,
+    "departure_time": 931,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1022,
+    "trip_id": 102,
+    "route_stop_id": 22,
+    "departure_time": 942,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1023,
+    "trip_id": 102,
+    "route_stop_id": 23,
+    "departure_time": 950,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1024,
+    "trip_id": 102,
+    "route_stop_id": 24,
+    "departure_time": 957,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1025,
+    "trip_id": 102,
+    "route_stop_id": 25,
+    "departure_time": 1005,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1026,
+    "trip_id": 102,
+    "route_stop_id": 26,
+    "departure_time": 1013,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1027,
+    "trip_id": 102,
+    "route_stop_id": 27,
+    "departure_time": 1017,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1028,
+    "trip_id": 102,
+    "route_stop_id": 28,
+    "departure_time": 1025,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1029,
+    "trip_id": 102,
+    "route_stop_id": 29,
+    "departure_time": 1035,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1030,
+    "trip_id": 102,
+    "route_stop_id": 30,
+    "departure_time": 1043,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1031,
+    "trip_id": 102,
+    "route_stop_id": 31,
+    "departure_time": null,
+    "is_skipped": true
+  },
+  {
+    "stop_time_id": 1032,
+    "trip_id": 102,
+    "route_stop_id": 32,
+    "departure_time": null,
+    "is_skipped": true
+  },
+  {
+    "stop_time_id": 1033,
+    "trip_id": 103,
+    "route_stop_id": 33,
+    "departure_time": "1658",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1034,
+    "trip_id": 103,
+    "route_stop_id": 34,
+    "departure_time": "1700",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1035,
+    "trip_id": 103,
+    "route_stop_id": 35,
+    "departure_time": "1701",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1036,
+    "trip_id": 103,
+    "route_stop_id": 36,
+    "departure_time": "1712",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1037,
+    "trip_id": 103,
+    "route_stop_id": 37,
+    "departure_time": "1720",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1038,
+    "trip_id": 103,
+    "route_stop_id": 38,
+    "departure_time": "1727",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1039,
+    "trip_id": 103,
+    "route_stop_id": 39,
+    "departure_time": "1735",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1040,
+    "trip_id": 103,
+    "route_stop_id": 40,
+    "departure_time": "1743",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1041,
+    "trip_id": 103,
+    "route_stop_id": 41,
+    "departure_time": "1747",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1042,
+    "trip_id": 103,
+    "route_stop_id": 42,
+    "departure_time": "1755",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1043,
+    "trip_id": 103,
+    "route_stop_id": 43,
+    "departure_time": "1805",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1044,
+    "trip_id": 103,
+    "route_stop_id": 44,
+    "departure_time": "1813",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1045,
+    "trip_id": 103,
+    "route_stop_id": 45,
+    "departure_time": "1813",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1046,
+    "trip_id": 103,
+    "route_stop_id": 46,
+    "departure_time": "1822",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1047,
+    "trip_id": 104,
+    "route_stop_id": 47,
+    "departure_time": 931,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1048,
+    "trip_id": 104,
+    "route_stop_id": 48,
+    "departure_time": 936,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1049,
+    "trip_id": 104,
+    "route_stop_id": 49,
+    "departure_time": 942,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1050,
+    "trip_id": 104,
+    "route_stop_id": 50,
+    "departure_time": 948,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1051,
+    "trip_id": 104,
+    "route_stop_id": 51,
+    "departure_time": null,
+    "is_skipped": true
+  },
+  {
+    "stop_time_id": 1052,
+    "trip_id": 104,
+    "route_stop_id": 52,
+    "departure_time": 950,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1053,
+    "trip_id": 104,
+    "route_stop_id": 53,
+    "departure_time": 951,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1054,
+    "trip_id": 104,
+    "route_stop_id": 54,
+    "departure_time": 1002,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1055,
+    "trip_id": 104,
+    "route_stop_id": 55,
+    "departure_time": 1010,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1056,
+    "trip_id": 104,
+    "route_stop_id": 56,
+    "departure_time": 1017,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1057,
+    "trip_id": 104,
+    "route_stop_id": 57,
+    "departure_time": 1025,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1058,
+    "trip_id": 104,
+    "route_stop_id": 58,
+    "departure_time": 1033,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1059,
+    "trip_id": 104,
+    "route_stop_id": 59,
+    "departure_time": 1037,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1060,
+    "trip_id": 104,
+    "route_stop_id": 60,
+    "departure_time": 1045,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1061,
+    "trip_id": 104,
+    "route_stop_id": 61,
+    "departure_time": 1053,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1062,
+    "trip_id": 104,
+    "route_stop_id": 62,
+    "departure_time": 1100,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1063,
+    "trip_id": 104,
+    "route_stop_id": 63,
+    "departure_time": 1107,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1064,
+    "trip_id": 105,
+    "route_stop_id": 1,
+    "departure_time": 951,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1065,
+    "trip_id": 105,
+    "route_stop_id": 2,
+    "departure_time": 955,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1066,
+    "trip_id": 105,
+    "route_stop_id": 3,
+    "departure_time": 959,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1067,
+    "trip_id": 105,
+    "route_stop_id": 4,
+    "departure_time": 1008,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1068,
+    "trip_id": 105,
+    "route_stop_id": 5,
+    "departure_time": 1010,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1069,
+    "trip_id": 105,
+    "route_stop_id": 6,
+    "departure_time": 1011,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1070,
+    "trip_id": 105,
+    "route_stop_id": 7,
+    "departure_time": 1022,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1071,
+    "trip_id": 105,
+    "route_stop_id": 8,
+    "departure_time": 1030,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1072,
+    "trip_id": 105,
+    "route_stop_id": 9,
+    "departure_time": 1037,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1073,
+    "trip_id": 105,
+    "route_stop_id": 10,
+    "departure_time": 1045,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1074,
+    "trip_id": 105,
+    "route_stop_id": 11,
+    "departure_time": 1053,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1075,
+    "trip_id": 105,
+    "route_stop_id": 12,
+    "departure_time": 1057,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1076,
+    "trip_id": 105,
+    "route_stop_id": 13,
+    "departure_time": 1105,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1077,
+    "trip_id": 105,
+    "route_stop_id": 14,
+    "departure_time": 1115,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1078,
+    "trip_id": 105,
+    "route_stop_id": 15,
+    "departure_time": 1123,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1079,
+    "trip_id": 105,
+    "route_stop_id": 16,
+    "departure_time": 1130,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1080,
+    "trip_id": 105,
+    "route_stop_id": 17,
+    "departure_time": 1139,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1081,
+    "trip_id": 106,
+    "route_stop_id": 18,
+    "departure_time": 1018,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1082,
+    "trip_id": 106,
+    "route_stop_id": 19,
+    "departure_time": 1023,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1083,
+    "trip_id": 106,
+    "route_stop_id": 20,
+    "departure_time": 1030,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1084,
+    "trip_id": 106,
+    "route_stop_id": 21,
+    "departure_time": 1031,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1085,
+    "trip_id": 106,
+    "route_stop_id": 22,
+    "departure_time": 1042,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1086,
+    "trip_id": 106,
+    "route_stop_id": 23,
+    "departure_time": 1050,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1087,
+    "trip_id": 106,
+    "route_stop_id": 24,
+    "departure_time": 1057,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1088,
+    "trip_id": 106,
+    "route_stop_id": 25,
+    "departure_time": 1105,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1089,
+    "trip_id": 106,
+    "route_stop_id": 26,
+    "departure_time": 1113,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1090,
+    "trip_id": 106,
+    "route_stop_id": 27,
+    "departure_time": 1117,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1091,
+    "trip_id": 106,
+    "route_stop_id": 28,
+    "departure_time": 1125,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1092,
+    "trip_id": 106,
+    "route_stop_id": 29,
+    "departure_time": 1135,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1093,
+    "trip_id": 106,
+    "route_stop_id": 30,
+    "departure_time": 1143,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1094,
+    "trip_id": 106,
+    "route_stop_id": 31,
+    "departure_time": null,
+    "is_skipped": true
+  },
+  {
+    "stop_time_id": 1095,
+    "trip_id": 106,
+    "route_stop_id": 32,
+    "departure_time": null,
+    "is_skipped": true
+  },
+  {
+    "stop_time_id": 1096,
+    "trip_id": 107,
+    "route_stop_id": 47,
+    "departure_time": 1031,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1097,
+    "trip_id": 107,
+    "route_stop_id": 48,
+    "departure_time": 1036,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1098,
+    "trip_id": 107,
+    "route_stop_id": 49,
+    "departure_time": 1042,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1099,
+    "trip_id": 107,
+    "route_stop_id": 50,
+    "departure_time": 1048,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1100,
+    "trip_id": 107,
+    "route_stop_id": 51,
+    "departure_time": null,
+    "is_skipped": true
+  },
+  {
+    "stop_time_id": 1101,
+    "trip_id": 107,
+    "route_stop_id": 52,
+    "departure_time": 1050,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1102,
+    "trip_id": 107,
+    "route_stop_id": 53,
+    "departure_time": 1051,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1103,
+    "trip_id": 107,
+    "route_stop_id": 54,
+    "departure_time": 1102,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1104,
+    "trip_id": 107,
+    "route_stop_id": 55,
+    "departure_time": 1110,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1105,
+    "trip_id": 107,
+    "route_stop_id": 56,
+    "departure_time": 1117,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1106,
+    "trip_id": 107,
+    "route_stop_id": 57,
+    "departure_time": 1125,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1107,
+    "trip_id": 107,
+    "route_stop_id": 58,
+    "departure_time": 1133,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1108,
+    "trip_id": 107,
+    "route_stop_id": 59,
+    "departure_time": 1137,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1109,
+    "trip_id": 107,
+    "route_stop_id": 60,
+    "departure_time": 1145,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1110,
+    "trip_id": 107,
+    "route_stop_id": 61,
+    "departure_time": 1153,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1111,
+    "trip_id": 107,
+    "route_stop_id": 62,
+    "departure_time": 1200,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1112,
+    "trip_id": 107,
+    "route_stop_id": 63,
+    "departure_time": 1207,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1113,
+    "trip_id": 108,
+    "route_stop_id": 1,
+    "departure_time": 1051,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1114,
+    "trip_id": 108,
+    "route_stop_id": 2,
+    "departure_time": 1055,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1115,
+    "trip_id": 108,
+    "route_stop_id": 3,
+    "departure_time": 1059,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1116,
+    "trip_id": 108,
+    "route_stop_id": 4,
+    "departure_time": 1108,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1117,
+    "trip_id": 108,
+    "route_stop_id": 5,
+    "departure_time": 1110,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1118,
+    "trip_id": 108,
+    "route_stop_id": 6,
+    "departure_time": 1111,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1119,
+    "trip_id": 108,
+    "route_stop_id": 7,
+    "departure_time": 1122,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1120,
+    "trip_id": 108,
+    "route_stop_id": 8,
+    "departure_time": 1130,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1121,
+    "trip_id": 108,
+    "route_stop_id": 9,
+    "departure_time": 1137,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1122,
+    "trip_id": 108,
+    "route_stop_id": 10,
+    "departure_time": 1145,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1123,
+    "trip_id": 108,
+    "route_stop_id": 11,
+    "departure_time": 1153,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1124,
+    "trip_id": 108,
+    "route_stop_id": 12,
+    "departure_time": 1157,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1125,
+    "trip_id": 108,
+    "route_stop_id": 13,
+    "departure_time": 1205,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1126,
+    "trip_id": 108,
+    "route_stop_id": 14,
+    "departure_time": 1215,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1127,
+    "trip_id": 108,
+    "route_stop_id": 15,
+    "departure_time": 1223,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1128,
+    "trip_id": 108,
+    "route_stop_id": 16,
+    "departure_time": 1230,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1129,
+    "trip_id": 108,
+    "route_stop_id": 17,
+    "departure_time": 1239,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1130,
+    "trip_id": 109,
+    "route_stop_id": 18,
+    "departure_time": 1118,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1131,
+    "trip_id": 109,
+    "route_stop_id": 19,
+    "departure_time": 1123,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1132,
+    "trip_id": 109,
+    "route_stop_id": 20,
+    "departure_time": 1130,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1133,
+    "trip_id": 109,
+    "route_stop_id": 21,
+    "departure_time": 1131,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1134,
+    "trip_id": 109,
+    "route_stop_id": 22,
+    "departure_time": 1142,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1135,
+    "trip_id": 109,
+    "route_stop_id": 23,
+    "departure_time": 1150,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1136,
+    "trip_id": 109,
+    "route_stop_id": 24,
+    "departure_time": 1157,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1137,
+    "trip_id": 109,
+    "route_stop_id": 25,
+    "departure_time": 1205,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1138,
+    "trip_id": 109,
+    "route_stop_id": 26,
+    "departure_time": 1213,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1139,
+    "trip_id": 109,
+    "route_stop_id": 27,
+    "departure_time": 1217,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1140,
+    "trip_id": 109,
+    "route_stop_id": 28,
+    "departure_time": 1225,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1141,
+    "trip_id": 109,
+    "route_stop_id": 29,
+    "departure_time": 1235,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1142,
+    "trip_id": 109,
+    "route_stop_id": 30,
+    "departure_time": 1243,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1143,
+    "trip_id": 109,
+    "route_stop_id": 31,
+    "departure_time": null,
+    "is_skipped": true
+  },
+  {
+    "stop_time_id": 1144,
+    "trip_id": 109,
+    "route_stop_id": 32,
+    "departure_time": null,
+    "is_skipped": true
+  },
+  {
+    "stop_time_id": 1145,
+    "trip_id": 110,
+    "route_stop_id": 47,
+    "departure_time": 1131,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1146,
+    "trip_id": 110,
+    "route_stop_id": 48,
+    "departure_time": 1136,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1147,
+    "trip_id": 110,
+    "route_stop_id": 49,
+    "departure_time": 1142,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1148,
+    "trip_id": 110,
+    "route_stop_id": 50,
+    "departure_time": 1148,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1149,
+    "trip_id": 110,
+    "route_stop_id": 51,
+    "departure_time": null,
+    "is_skipped": true
+  },
+  {
+    "stop_time_id": 1150,
+    "trip_id": 110,
+    "route_stop_id": 52,
+    "departure_time": 1150,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1151,
+    "trip_id": 110,
+    "route_stop_id": 53,
+    "departure_time": 1151,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1152,
+    "trip_id": 110,
+    "route_stop_id": 54,
+    "departure_time": 1202,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1153,
+    "trip_id": 110,
+    "route_stop_id": 55,
+    "departure_time": 1210,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1154,
+    "trip_id": 110,
+    "route_stop_id": 56,
+    "departure_time": 1217,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1155,
+    "trip_id": 110,
+    "route_stop_id": 57,
+    "departure_time": 1225,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1156,
+    "trip_id": 110,
+    "route_stop_id": 58,
+    "departure_time": 1233,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1157,
+    "trip_id": 110,
+    "route_stop_id": 59,
+    "departure_time": 1237,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1158,
+    "trip_id": 110,
+    "route_stop_id": 60,
+    "departure_time": 1245,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1159,
+    "trip_id": 110,
+    "route_stop_id": 61,
+    "departure_time": 1253,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1160,
+    "trip_id": 110,
+    "route_stop_id": 62,
+    "departure_time": 1300,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1161,
+    "trip_id": 110,
+    "route_stop_id": 63,
+    "departure_time": 1307,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1162,
+    "trip_id": 111,
+    "route_stop_id": 1,
+    "departure_time": 1151,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1163,
+    "trip_id": 111,
+    "route_stop_id": 2,
+    "departure_time": 1155,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1164,
+    "trip_id": 111,
+    "route_stop_id": 3,
+    "departure_time": 1159,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1165,
+    "trip_id": 111,
+    "route_stop_id": 4,
+    "departure_time": 1208,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1166,
+    "trip_id": 111,
+    "route_stop_id": 5,
+    "departure_time": 1210,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1167,
+    "trip_id": 111,
+    "route_stop_id": 6,
+    "departure_time": 1211,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1168,
+    "trip_id": 111,
+    "route_stop_id": 7,
+    "departure_time": 1222,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1169,
+    "trip_id": 111,
+    "route_stop_id": 8,
+    "departure_time": 1230,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1170,
+    "trip_id": 111,
+    "route_stop_id": 9,
+    "departure_time": 1237,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1171,
+    "trip_id": 111,
+    "route_stop_id": 10,
+    "departure_time": 1245,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1172,
+    "trip_id": 111,
+    "route_stop_id": 11,
+    "departure_time": 1253,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1173,
+    "trip_id": 111,
+    "route_stop_id": 12,
+    "departure_time": 1257,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1174,
+    "trip_id": 111,
+    "route_stop_id": 13,
+    "departure_time": 1305,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1175,
+    "trip_id": 111,
+    "route_stop_id": 14,
+    "departure_time": 1315,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1176,
+    "trip_id": 111,
+    "route_stop_id": 15,
+    "departure_time": 1323,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1177,
+    "trip_id": 111,
+    "route_stop_id": 16,
+    "departure_time": 1330,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1178,
+    "trip_id": 111,
+    "route_stop_id": 17,
+    "departure_time": 1339,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1179,
+    "trip_id": 112,
+    "route_stop_id": 18,
+    "departure_time": 1218,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1180,
+    "trip_id": 112,
+    "route_stop_id": 19,
+    "departure_time": 1223,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1181,
+    "trip_id": 112,
+    "route_stop_id": 20,
+    "departure_time": 1230,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1182,
+    "trip_id": 112,
+    "route_stop_id": 21,
+    "departure_time": 1231,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1183,
+    "trip_id": 112,
+    "route_stop_id": 22,
+    "departure_time": 1242,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1184,
+    "trip_id": 112,
+    "route_stop_id": 23,
+    "departure_time": 1250,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1185,
+    "trip_id": 112,
+    "route_stop_id": 24,
+    "departure_time": 1257,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1186,
+    "trip_id": 112,
+    "route_stop_id": 25,
+    "departure_time": 1305,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1187,
+    "trip_id": 112,
+    "route_stop_id": 26,
+    "departure_time": 1313,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1188,
+    "trip_id": 112,
+    "route_stop_id": 27,
+    "departure_time": 1317,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1189,
+    "trip_id": 112,
+    "route_stop_id": 28,
+    "departure_time": 1325,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1190,
+    "trip_id": 112,
+    "route_stop_id": 29,
+    "departure_time": 1335,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1191,
+    "trip_id": 112,
+    "route_stop_id": 30,
+    "departure_time": 1343,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1192,
+    "trip_id": 112,
+    "route_stop_id": 31,
+    "departure_time": null,
+    "is_skipped": true
+  },
+  {
+    "stop_time_id": 1193,
+    "trip_id": 112,
+    "route_stop_id": 32,
+    "departure_time": null,
+    "is_skipped": true
+  },
+  {
+    "stop_time_id": 1194,
+    "trip_id": 113,
+    "route_stop_id": 47,
+    "departure_time": 1231,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1195,
+    "trip_id": 113,
+    "route_stop_id": 48,
+    "departure_time": 1236,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1196,
+    "trip_id": 113,
+    "route_stop_id": 49,
+    "departure_time": 1242,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1197,
+    "trip_id": 113,
+    "route_stop_id": 50,
+    "departure_time": 1248,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1198,
+    "trip_id": 113,
+    "route_stop_id": 51,
+    "departure_time": null,
+    "is_skipped": true
+  },
+  {
+    "stop_time_id": 1199,
+    "trip_id": 113,
+    "route_stop_id": 52,
+    "departure_time": 1250,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1200,
+    "trip_id": 113,
+    "route_stop_id": 53,
+    "departure_time": 1251,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1201,
+    "trip_id": 113,
+    "route_stop_id": 54,
+    "departure_time": 1302,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1202,
+    "trip_id": 113,
+    "route_stop_id": 55,
+    "departure_time": 1310,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1203,
+    "trip_id": 113,
+    "route_stop_id": 56,
+    "departure_time": 1317,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1204,
+    "trip_id": 113,
+    "route_stop_id": 57,
+    "departure_time": 1325,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1205,
+    "trip_id": 113,
+    "route_stop_id": 58,
+    "departure_time": 1333,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1206,
+    "trip_id": 113,
+    "route_stop_id": 59,
+    "departure_time": 1337,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1207,
+    "trip_id": 113,
+    "route_stop_id": 60,
+    "departure_time": 1345,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1208,
+    "trip_id": 113,
+    "route_stop_id": 61,
+    "departure_time": 1353,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1209,
+    "trip_id": 113,
+    "route_stop_id": 62,
+    "departure_time": 1400,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1210,
+    "trip_id": 113,
+    "route_stop_id": 63,
+    "departure_time": 1407,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1211,
+    "trip_id": 114,
+    "route_stop_id": 1,
+    "departure_time": 1251,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1212,
+    "trip_id": 114,
+    "route_stop_id": 2,
+    "departure_time": 1255,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1213,
+    "trip_id": 114,
+    "route_stop_id": 3,
+    "departure_time": 1259,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1214,
+    "trip_id": 114,
+    "route_stop_id": 4,
+    "departure_time": 1308,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1215,
+    "trip_id": 114,
+    "route_stop_id": 5,
+    "departure_time": 1310,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1216,
+    "trip_id": 114,
+    "route_stop_id": 6,
+    "departure_time": 1311,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1217,
+    "trip_id": 114,
+    "route_stop_id": 7,
+    "departure_time": 1322,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1218,
+    "trip_id": 114,
+    "route_stop_id": 8,
+    "departure_time": 1330,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1219,
+    "trip_id": 114,
+    "route_stop_id": 9,
+    "departure_time": 1337,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1220,
+    "trip_id": 114,
+    "route_stop_id": 10,
+    "departure_time": 1345,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1221,
+    "trip_id": 114,
+    "route_stop_id": 11,
+    "departure_time": 1353,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1222,
+    "trip_id": 114,
+    "route_stop_id": 12,
+    "departure_time": 1357,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1223,
+    "trip_id": 114,
+    "route_stop_id": 13,
+    "departure_time": 1405,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1224,
+    "trip_id": 114,
+    "route_stop_id": 14,
+    "departure_time": 1415,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1225,
+    "trip_id": 114,
+    "route_stop_id": 15,
+    "departure_time": 1423,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1226,
+    "trip_id": 114,
+    "route_stop_id": 16,
+    "departure_time": 1430,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1227,
+    "trip_id": 114,
+    "route_stop_id": 17,
+    "departure_time": 1439,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1228,
+    "trip_id": 115,
+    "route_stop_id": 18,
+    "departure_time": 1318,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1229,
+    "trip_id": 115,
+    "route_stop_id": 19,
+    "departure_time": 1323,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1230,
+    "trip_id": 115,
+    "route_stop_id": 20,
+    "departure_time": 1330,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1231,
+    "trip_id": 115,
+    "route_stop_id": 21,
+    "departure_time": 1331,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1232,
+    "trip_id": 115,
+    "route_stop_id": 22,
+    "departure_time": 1342,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1233,
+    "trip_id": 115,
+    "route_stop_id": 23,
+    "departure_time": 1350,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1234,
+    "trip_id": 115,
+    "route_stop_id": 24,
+    "departure_time": 1357,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1235,
+    "trip_id": 115,
+    "route_stop_id": 25,
+    "departure_time": 1405,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1236,
+    "trip_id": 115,
+    "route_stop_id": 26,
+    "departure_time": 1413,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1237,
+    "trip_id": 115,
+    "route_stop_id": 27,
+    "departure_time": 1417,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1238,
+    "trip_id": 115,
+    "route_stop_id": 28,
+    "departure_time": 1425,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1239,
+    "trip_id": 115,
+    "route_stop_id": 29,
+    "departure_time": 1435,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1240,
+    "trip_id": 115,
+    "route_stop_id": 30,
+    "departure_time": 1443,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1241,
+    "trip_id": 115,
+    "route_stop_id": 31,
+    "departure_time": null,
+    "is_skipped": true
+  },
+  {
+    "stop_time_id": 1242,
+    "trip_id": 115,
+    "route_stop_id": 32,
+    "departure_time": null,
+    "is_skipped": true
+  },
+  {
+    "stop_time_id": 1243,
+    "trip_id": 116,
+    "route_stop_id": 47,
+    "departure_time": 1331,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1244,
+    "trip_id": 116,
+    "route_stop_id": 48,
+    "departure_time": 1336,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1245,
+    "trip_id": 116,
+    "route_stop_id": 49,
+    "departure_time": 1342,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1246,
+    "trip_id": 116,
+    "route_stop_id": 50,
+    "departure_time": 1348,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1247,
+    "trip_id": 116,
+    "route_stop_id": 51,
+    "departure_time": null,
+    "is_skipped": true
+  },
+  {
+    "stop_time_id": 1248,
+    "trip_id": 116,
+    "route_stop_id": 52,
+    "departure_time": 1350,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1249,
+    "trip_id": 116,
+    "route_stop_id": 53,
+    "departure_time": 1351,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1250,
+    "trip_id": 116,
+    "route_stop_id": 54,
+    "departure_time": 1402,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1251,
+    "trip_id": 116,
+    "route_stop_id": 55,
+    "departure_time": 1410,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1252,
+    "trip_id": 116,
+    "route_stop_id": 56,
+    "departure_time": 1417,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1253,
+    "trip_id": 116,
+    "route_stop_id": 57,
+    "departure_time": 1425,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1254,
+    "trip_id": 116,
+    "route_stop_id": 58,
+    "departure_time": 1433,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1255,
+    "trip_id": 116,
+    "route_stop_id": 59,
+    "departure_time": 1437,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1256,
+    "trip_id": 116,
+    "route_stop_id": 60,
+    "departure_time": 1445,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1257,
+    "trip_id": 116,
+    "route_stop_id": 61,
+    "departure_time": 1453,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1258,
+    "trip_id": 116,
+    "route_stop_id": 62,
+    "departure_time": 1500,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1259,
+    "trip_id": 116,
+    "route_stop_id": 63,
+    "departure_time": 1507,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1260,
+    "trip_id": 117,
+    "route_stop_id": 1,
+    "departure_time": 1351,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1261,
+    "trip_id": 117,
+    "route_stop_id": 2,
+    "departure_time": 1355,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1262,
+    "trip_id": 117,
+    "route_stop_id": 3,
+    "departure_time": 1359,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1263,
+    "trip_id": 117,
+    "route_stop_id": 4,
+    "departure_time": 1408,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1264,
+    "trip_id": 117,
+    "route_stop_id": 5,
+    "departure_time": 1410,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1265,
+    "trip_id": 117,
+    "route_stop_id": 6,
+    "departure_time": 1411,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1266,
+    "trip_id": 117,
+    "route_stop_id": 7,
+    "departure_time": 1422,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1267,
+    "trip_id": 117,
+    "route_stop_id": 8,
+    "departure_time": 1430,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1268,
+    "trip_id": 117,
+    "route_stop_id": 9,
+    "departure_time": 1437,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1269,
+    "trip_id": 117,
+    "route_stop_id": 10,
+    "departure_time": 1445,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1270,
+    "trip_id": 117,
+    "route_stop_id": 11,
+    "departure_time": 1453,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1271,
+    "trip_id": 117,
+    "route_stop_id": 12,
+    "departure_time": 1457,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1272,
+    "trip_id": 117,
+    "route_stop_id": 13,
+    "departure_time": 1505,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1273,
+    "trip_id": 117,
+    "route_stop_id": 14,
+    "departure_time": 1515,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1274,
+    "trip_id": 117,
+    "route_stop_id": 15,
+    "departure_time": 1523,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1275,
+    "trip_id": 117,
+    "route_stop_id": 16,
+    "departure_time": 1530,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1276,
+    "trip_id": 117,
+    "route_stop_id": 17,
+    "departure_time": 1539,
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1277,
+    "trip_id": 118,
+    "route_stop_id": 18,
+    "departure_time": "1418",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1278,
+    "trip_id": 118,
+    "route_stop_id": 19,
+    "departure_time": "1423",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1279,
+    "trip_id": 118,
+    "route_stop_id": 20,
+    "departure_time": "1430",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1280,
+    "trip_id": 118,
+    "route_stop_id": 21,
+    "departure_time": "1431",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1281,
+    "trip_id": 118,
+    "route_stop_id": 22,
+    "departure_time": "1442",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1282,
+    "trip_id": 118,
+    "route_stop_id": 23,
+    "departure_time": "1450",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1283,
+    "trip_id": 118,
+    "route_stop_id": 24,
+    "departure_time": "1457",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1284,
+    "trip_id": 118,
+    "route_stop_id": 25,
+    "departure_time": "1505",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1285,
+    "trip_id": 118,
+    "route_stop_id": 26,
+    "departure_time": "1513",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1286,
+    "trip_id": 118,
+    "route_stop_id": 27,
+    "departure_time": "1517",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1287,
+    "trip_id": 118,
+    "route_stop_id": 28,
+    "departure_time": "1525",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1288,
+    "trip_id": 118,
+    "route_stop_id": 29,
+    "departure_time": "1535",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1289,
+    "trip_id": 118,
+    "route_stop_id": 30,
+    "departure_time": "1543",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1290,
+    "trip_id": 118,
+    "route_stop_id": 31,
+    "departure_time": null,
+    "is_skipped": true
+  },
+  {
+    "stop_time_id": 1291,
+    "trip_id": 118,
+    "route_stop_id": 32,
+    "departure_time": null,
+    "is_skipped": true
+  },
+  {
+    "stop_time_id": 1292,
+    "trip_id": 119,
+    "route_stop_id": 47,
+    "departure_time": "1431",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1293,
+    "trip_id": 119,
+    "route_stop_id": 48,
+    "departure_time": "1436",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1294,
+    "trip_id": 119,
+    "route_stop_id": 49,
+    "departure_time": "1442",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1295,
+    "trip_id": 119,
+    "route_stop_id": 50,
+    "departure_time": "1448",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1296,
+    "trip_id": 119,
+    "route_stop_id": 51,
+    "departure_time": null,
+    "is_skipped": true
+  },
+  {
+    "stop_time_id": 1297,
+    "trip_id": 119,
+    "route_stop_id": 52,
+    "departure_time": "1450",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1298,
+    "trip_id": 119,
+    "route_stop_id": 53,
+    "departure_time": "1451",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1299,
+    "trip_id": 119,
+    "route_stop_id": 54,
+    "departure_time": "1502",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1300,
+    "trip_id": 119,
+    "route_stop_id": 55,
+    "departure_time": "1510",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1301,
+    "trip_id": 119,
+    "route_stop_id": 56,
+    "departure_time": "1517",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1302,
+    "trip_id": 119,
+    "route_stop_id": 57,
+    "departure_time": "1525",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1303,
+    "trip_id": 119,
+    "route_stop_id": 58,
+    "departure_time": "1533",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1304,
+    "trip_id": 119,
+    "route_stop_id": 59,
+    "departure_time": "1537",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1305,
+    "trip_id": 119,
+    "route_stop_id": 60,
+    "departure_time": "1545",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1306,
+    "trip_id": 119,
+    "route_stop_id": 61,
+    "departure_time": "1553",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1307,
+    "trip_id": 119,
+    "route_stop_id": 62,
+    "departure_time": "1600",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1308,
+    "trip_id": 119,
+    "route_stop_id": 63,
+    "departure_time": "1607",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1309,
+    "trip_id": 120,
+    "route_stop_id": 1,
+    "departure_time": "1451",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1310,
+    "trip_id": 120,
+    "route_stop_id": 2,
+    "departure_time": "1455",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1311,
+    "trip_id": 120,
+    "route_stop_id": 3,
+    "departure_time": "1459",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1312,
+    "trip_id": 120,
+    "route_stop_id": 4,
+    "departure_time": "1508",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1313,
+    "trip_id": 120,
+    "route_stop_id": 5,
+    "departure_time": "1510",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1314,
+    "trip_id": 120,
+    "route_stop_id": 6,
+    "departure_time": "1511",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1315,
+    "trip_id": 120,
+    "route_stop_id": 7,
+    "departure_time": "1522",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1316,
+    "trip_id": 120,
+    "route_stop_id": 8,
+    "departure_time": "1530",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1317,
+    "trip_id": 120,
+    "route_stop_id": 9,
+    "departure_time": "1537",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1318,
+    "trip_id": 120,
+    "route_stop_id": 10,
+    "departure_time": "1545",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1319,
+    "trip_id": 120,
+    "route_stop_id": 11,
+    "departure_time": "1553",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1320,
+    "trip_id": 120,
+    "route_stop_id": 12,
+    "departure_time": "1557",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1321,
+    "trip_id": 120,
+    "route_stop_id": 13,
+    "departure_time": "1605",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1322,
+    "trip_id": 120,
+    "route_stop_id": 14,
+    "departure_time": "1615",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1323,
+    "trip_id": 120,
+    "route_stop_id": 15,
+    "departure_time": "1623",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1324,
+    "trip_id": 120,
+    "route_stop_id": 16,
+    "departure_time": "1630",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1325,
+    "trip_id": 120,
+    "route_stop_id": 17,
+    "departure_time": "1639",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1326,
+    "trip_id": 121,
+    "route_stop_id": 18,
+    "departure_time": "1518",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1327,
+    "trip_id": 121,
+    "route_stop_id": 19,
+    "departure_time": "1523",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1328,
+    "trip_id": 121,
+    "route_stop_id": 20,
+    "departure_time": "1530",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1329,
+    "trip_id": 121,
+    "route_stop_id": 21,
+    "departure_time": "1531",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1330,
+    "trip_id": 121,
+    "route_stop_id": 22,
+    "departure_time": "1542",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1331,
+    "trip_id": 121,
+    "route_stop_id": 23,
+    "departure_time": "1550",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1332,
+    "trip_id": 121,
+    "route_stop_id": 24,
+    "departure_time": "1557",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1333,
+    "trip_id": 121,
+    "route_stop_id": 25,
+    "departure_time": "1605",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1334,
+    "trip_id": 121,
+    "route_stop_id": 26,
+    "departure_time": "1613",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1335,
+    "trip_id": 121,
+    "route_stop_id": 27,
+    "departure_time": "1617",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1336,
+    "trip_id": 121,
+    "route_stop_id": 28,
+    "departure_time": "1625",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1337,
+    "trip_id": 121,
+    "route_stop_id": 29,
+    "departure_time": "1635",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1338,
+    "trip_id": 121,
+    "route_stop_id": 30,
+    "departure_time": "1643",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1339,
+    "trip_id": 121,
+    "route_stop_id": 31,
+    "departure_time": null,
+    "is_skipped": true
+  },
+  {
+    "stop_time_id": 1340,
+    "trip_id": 121,
+    "route_stop_id": 32,
+    "departure_time": null,
+    "is_skipped": true
+  },
+  {
+    "stop_time_id": 1341,
+    "trip_id": 122,
+    "route_stop_id": 47,
+    "departure_time": "1531",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1342,
+    "trip_id": 122,
+    "route_stop_id": 48,
+    "departure_time": "1536",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1343,
+    "trip_id": 122,
+    "route_stop_id": 49,
+    "departure_time": "1542",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1344,
+    "trip_id": 122,
+    "route_stop_id": 50,
+    "departure_time": "1548",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1345,
+    "trip_id": 122,
+    "route_stop_id": 51,
+    "departure_time": "I",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1346,
+    "trip_id": 122,
+    "route_stop_id": 52,
+    "departure_time": "1550",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1347,
+    "trip_id": 122,
+    "route_stop_id": 53,
+    "departure_time": "1551",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1348,
+    "trip_id": 122,
+    "route_stop_id": 54,
+    "departure_time": "1602",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1349,
+    "trip_id": 122,
+    "route_stop_id": 55,
+    "departure_time": "1610",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1350,
+    "trip_id": 122,
+    "route_stop_id": 56,
+    "departure_time": "1617",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1351,
+    "trip_id": 122,
+    "route_stop_id": 57,
+    "departure_time": "1625",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1352,
+    "trip_id": 122,
+    "route_stop_id": 58,
+    "departure_time": "1633",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1353,
+    "trip_id": 122,
+    "route_stop_id": 59,
+    "departure_time": "1637",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1354,
+    "trip_id": 122,
+    "route_stop_id": 60,
+    "departure_time": "1645",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1355,
+    "trip_id": 122,
+    "route_stop_id": 61,
+    "departure_time": "1653",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1356,
+    "trip_id": 122,
+    "route_stop_id": 62,
+    "departure_time": "1700",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1357,
+    "trip_id": 122,
+    "route_stop_id": 63,
+    "departure_time": "1707",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1358,
+    "trip_id": 123,
+    "route_stop_id": 1,
+    "departure_time": "1551",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1359,
+    "trip_id": 123,
+    "route_stop_id": 2,
+    "departure_time": "1555",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1360,
+    "trip_id": 123,
+    "route_stop_id": 3,
+    "departure_time": "1559",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1361,
+    "trip_id": 123,
+    "route_stop_id": 4,
+    "departure_time": "1608",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1362,
+    "trip_id": 123,
+    "route_stop_id": 5,
+    "departure_time": "1610",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1363,
+    "trip_id": 123,
+    "route_stop_id": 6,
+    "departure_time": "1611",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1364,
+    "trip_id": 123,
+    "route_stop_id": 7,
+    "departure_time": "1622",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1365,
+    "trip_id": 123,
+    "route_stop_id": 8,
+    "departure_time": "1630",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1366,
+    "trip_id": 123,
+    "route_stop_id": 9,
+    "departure_time": "1637",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1367,
+    "trip_id": 123,
+    "route_stop_id": 10,
+    "departure_time": "1645",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1368,
+    "trip_id": 123,
+    "route_stop_id": 11,
+    "departure_time": "1653",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1369,
+    "trip_id": 123,
+    "route_stop_id": 12,
+    "departure_time": "1657",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1370,
+    "trip_id": 123,
+    "route_stop_id": 13,
+    "departure_time": "1705",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1371,
+    "trip_id": 123,
+    "route_stop_id": 14,
+    "departure_time": "1715",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1372,
+    "trip_id": 123,
+    "route_stop_id": 15,
+    "departure_time": "1723",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1373,
+    "trip_id": 123,
+    "route_stop_id": 16,
+    "departure_time": "1730",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1374,
+    "trip_id": 123,
+    "route_stop_id": 17,
+    "departure_time": "1739",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1375,
+    "trip_id": 124,
+    "route_stop_id": 18,
+    "departure_time": "1618",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1376,
+    "trip_id": 124,
+    "route_stop_id": 19,
+    "departure_time": "1623",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1377,
+    "trip_id": 124,
+    "route_stop_id": 20,
+    "departure_time": "1630",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1378,
+    "trip_id": 124,
+    "route_stop_id": 21,
+    "departure_time": "1631",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1379,
+    "trip_id": 124,
+    "route_stop_id": 22,
+    "departure_time": "1642",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1380,
+    "trip_id": 124,
+    "route_stop_id": 23,
+    "departure_time": "1650",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1381,
+    "trip_id": 124,
+    "route_stop_id": 24,
+    "departure_time": "1657",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1382,
+    "trip_id": 124,
+    "route_stop_id": 25,
+    "departure_time": "1705",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1383,
+    "trip_id": 124,
+    "route_stop_id": 26,
+    "departure_time": "1713",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1384,
+    "trip_id": 124,
+    "route_stop_id": 27,
+    "departure_time": "1717",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1385,
+    "trip_id": 124,
+    "route_stop_id": 28,
+    "departure_time": "1725",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1386,
+    "trip_id": 124,
+    "route_stop_id": 29,
+    "departure_time": "1735",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1387,
+    "trip_id": 124,
+    "route_stop_id": 30,
+    "departure_time": "1743",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1388,
+    "trip_id": 124,
+    "route_stop_id": 31,
+    "departure_time": null,
+    "is_skipped": true
+  },
+  {
+    "stop_time_id": 1389,
+    "trip_id": 124,
+    "route_stop_id": 32,
+    "departure_time": null,
+    "is_skipped": true
+  },
+  {
+    "stop_time_id": 1390,
+    "trip_id": 125,
+    "route_stop_id": 47,
+    "departure_time": "1626",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1391,
+    "trip_id": 125,
+    "route_stop_id": 48,
+    "departure_time": "1631",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1392,
+    "trip_id": 125,
+    "route_stop_id": 49,
+    "departure_time": "1637",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1393,
+    "trip_id": 125,
+    "route_stop_id": 50,
+    "departure_time": "1643",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1394,
+    "trip_id": 125,
+    "route_stop_id": 51,
+    "departure_time": null,
+    "is_skipped": true
+  },
+  {
+    "stop_time_id": 1395,
+    "trip_id": 125,
+    "route_stop_id": 52,
+    "departure_time": "1645",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1396,
+    "trip_id": 125,
+    "route_stop_id": 53,
+    "departure_time": "1646",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1397,
+    "trip_id": 125,
+    "route_stop_id": 54,
+    "departure_time": "1657",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1398,
+    "trip_id": 125,
+    "route_stop_id": 55,
+    "departure_time": "1705",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1399,
+    "trip_id": 125,
+    "route_stop_id": 56,
+    "departure_time": "1712",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1400,
+    "trip_id": 125,
+    "route_stop_id": 57,
+    "departure_time": "1720",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1401,
+    "trip_id": 125,
+    "route_stop_id": 58,
+    "departure_time": "1728",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1402,
+    "trip_id": 125,
+    "route_stop_id": 59,
+    "departure_time": "1732",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1403,
+    "trip_id": 125,
+    "route_stop_id": 60,
+    "departure_time": "1740",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1404,
+    "trip_id": 125,
+    "route_stop_id": 61,
+    "departure_time": "1748",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1405,
+    "trip_id": 125,
+    "route_stop_id": 62,
+    "departure_time": "1755",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1406,
+    "trip_id": 125,
+    "route_stop_id": 63,
+    "departure_time": "1802",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1407,
+    "trip_id": 126,
+    "route_stop_id": 64,
+    "departure_time": "1651",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1408,
+    "trip_id": 126,
+    "route_stop_id": 65,
+    "departure_time": "1655",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1409,
+    "trip_id": 126,
+    "route_stop_id": 66,
+    "departure_time": "1659",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1410,
+    "trip_id": 126,
+    "route_stop_id": 67,
+    "departure_time": "1708",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1411,
+    "trip_id": 126,
+    "route_stop_id": 68,
+    "departure_time": "1710",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1412,
+    "trip_id": 126,
+    "route_stop_id": 69,
+    "departure_time": "1711",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1413,
+    "trip_id": 126,
+    "route_stop_id": 70,
+    "departure_time": "1722",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1414,
+    "trip_id": 126,
+    "route_stop_id": 71,
+    "departure_time": "1735",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1415,
+    "trip_id": 126,
+    "route_stop_id": 72,
+    "departure_time": "1742",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1416,
+    "trip_id": 126,
+    "route_stop_id": 73,
+    "departure_time": "1750",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1417,
+    "trip_id": 126,
+    "route_stop_id": 74,
+    "departure_time": "1758",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1418,
+    "trip_id": 126,
+    "route_stop_id": 75,
+    "departure_time": "1802",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1419,
+    "trip_id": 126,
+    "route_stop_id": 76,
+    "departure_time": "1810",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1420,
+    "trip_id": 126,
+    "route_stop_id": 77,
+    "departure_time": "1818",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1421,
+    "trip_id": 126,
+    "route_stop_id": 78,
+    "departure_time": "1825",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1422,
+    "trip_id": 126,
+    "route_stop_id": 79,
+    "departure_time": "1832",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1423,
+    "trip_id": 127,
+    "route_stop_id": 18,
+    "departure_time": "1718",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1424,
+    "trip_id": 127,
+    "route_stop_id": 19,
+    "departure_time": "1723",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1425,
+    "trip_id": 127,
+    "route_stop_id": 20,
+    "departure_time": "1730",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1426,
+    "trip_id": 127,
+    "route_stop_id": 21,
+    "departure_time": "1731",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1427,
+    "trip_id": 127,
+    "route_stop_id": 22,
+    "departure_time": "1742",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1428,
+    "trip_id": 127,
+    "route_stop_id": 23,
+    "departure_time": "1750",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1429,
+    "trip_id": 127,
+    "route_stop_id": 24,
+    "departure_time": "1757",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1430,
+    "trip_id": 127,
+    "route_stop_id": 25,
+    "departure_time": "1805",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1431,
+    "trip_id": 127,
+    "route_stop_id": 26,
+    "departure_time": "1813",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1432,
+    "trip_id": 127,
+    "route_stop_id": 27,
+    "departure_time": "1817",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1433,
+    "trip_id": 127,
+    "route_stop_id": 28,
+    "departure_time": "1825",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1434,
+    "trip_id": 127,
+    "route_stop_id": 29,
+    "departure_time": "1835",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1435,
+    "trip_id": 127,
+    "route_stop_id": 30,
+    "departure_time": "1843",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1436,
+    "trip_id": 127,
+    "route_stop_id": 31,
+    "departure_time": "1858",
+    "is_skipped": false
+  },
+  {
+    "stop_time_id": 1437,
+    "trip_id": 127,
+    "route_stop_id": 32,
+    "departure_time": "1907",
+    "is_skipped": false
+  }
+]

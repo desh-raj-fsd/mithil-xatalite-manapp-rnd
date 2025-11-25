@@ -1,0 +1,30 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_d4ip4p62nqcg7v1drsk0",
+    "operations": [
+      {
+        "add_column": {
+          "table": "routes",
+          "column": {
+            "name": "service_id",
+            "type": "text",
+            "comment": "{\"xata.link\":\"bus_services\"}",
+            "nullable": true,
+            "references": {
+              "name": "service_id_link",
+              "table": "bus_services",
+              "column": "xata_id",
+              "on_delete": "SET NULL"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_d4ip4p62nqcg7v1drsk0",
+  "parent": "mig_d4ip39e2nqcg7v1drsj0",
+  "schema": "public",
+  "startedAt": "2025-11-25T11:26:29.511458Z"
+}
