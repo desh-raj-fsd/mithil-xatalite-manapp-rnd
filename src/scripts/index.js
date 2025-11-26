@@ -6,6 +6,7 @@ import {
   seedRoutes,
   seedTrips,
   seedRouteStops,
+  seedStopTimes,
 } from "./seeding.js";
 
 async function convertAndExtract() {
@@ -31,8 +32,12 @@ try {
   console.error("Error: ", error);
 }
 
-seedBusServices().catch(console.error);
-seedStops().catch(console.error);
-seedRoutes().catch(console.error);
-seedTrips().catch(console.error);
-seedRouteStops().catch(console.error);
+async function seedDatabase() {
+  await seedBusServices();
+  await seedStops();
+  await seedRoutes();
+  await seedRouteStops();
+  await seedTrips();
+}
+
+

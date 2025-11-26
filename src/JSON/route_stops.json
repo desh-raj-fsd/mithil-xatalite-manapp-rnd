@@ -1,476 +1,476 @@
 [
   {
     "route_stop_id": 1,
-    "route_id": 1,
-    "stop_id": 1,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Noble's Hospital, main entrance",
     "sequence_number": 1
   },
   {
     "route_stop_id": 2,
-    "route_id": 1,
-    "stop_id": 2,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Cronkbourne, shelter",
     "sequence_number": 2
   },
   {
     "route_stop_id": 3,
-    "route_id": 1,
-    "stop_id": 4,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Hailwood Avenue, Cat With No Tail",
     "sequence_number": 3
   },
   {
     "route_stop_id": 4,
-    "route_id": 1,
-    "stop_id": 6,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Royal Avenue, Central Drive",
     "sequence_number": 4
   },
   {
     "route_stop_id": 5,
-    "route_id": 1,
-    "stop_id": 9,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Port Jack, shelter",
     "sequence_number": 5
   },
   {
     "route_stop_id": 6,
-    "route_id": 1,
-    "stop_id": 10,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Derby Castle, MER Station",
     "sequence_number": 6
   },
   {
     "route_stop_id": 7,
-    "route_id": 1,
-    "stop_id": 11,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Douglas, Lord Street Stand C, arr *",
     "sequence_number": 7
   },
   {
     "route_stop_id": 8,
-    "route_id": 1,
-    "stop_id": 12,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Douglas, Lord Street Stand C, dep *",
     "sequence_number": 8
   },
   {
     "route_stop_id": 9,
-    "route_id": 1,
-    "stop_id": 13,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Groves Road, NSC",
     "sequence_number": 9
   },
   {
     "route_stop_id": 10,
-    "route_id": 1,
-    "stop_id": 14,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Newtown, Old Chapel",
     "sequence_number": 10
   },
   {
     "route_stop_id": 11,
-    "route_id": 1,
-    "stop_id": 15,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Ballasalla Railway Station",
     "sequence_number": 11
   },
   {
     "route_stop_id": 12,
-    "route_id": 1,
-    "stop_id": 16,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Ronaldsway Airport",
     "sequence_number": 12
   },
   {
     "route_stop_id": 13,
-    "route_id": 1,
-    "stop_id": 17,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Castletown Square, Co-op",
     "sequence_number": 13
   },
   {
     "route_stop_id": 14,
-    "route_id": 1,
-    "stop_id": 18,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Colby Bridge, Methodist Church",
     "sequence_number": 14
   },
   {
     "route_stop_id": 15,
-    "route_id": 1,
-    "stop_id": 21,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Port Erin, Railway Station, arr",
     "sequence_number": 15
   },
   {
     "route_stop_id": 16,
-    "route_id": 1,
-    "stop_id": 22,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Port Erin, Railway Station, dep",
     "sequence_number": 16
   },
   {
     "route_stop_id": 17,
-    "route_id": 1,
-    "stop_id": 23,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Port St. Mary, Harbour, arr",
     "sequence_number": 17
   },
   {
     "route_stop_id": 18,
-    "route_id": 2,
-    "stop_id": 7,
+    "route_name": "Ballachrink - Port Erin",
+    "stop_name": "Ballachrink, shop",
     "sequence_number": 1
   },
   {
     "route_stop_id": 19,
-    "route_id": 2,
-    "stop_id": 8,
+    "route_name": "Ballachrink - Port Erin",
+    "stop_name": "Windermere Drive, Windermere Avenue",
     "sequence_number": 2
   },
   {
     "route_stop_id": 20,
-    "route_id": 2,
-    "stop_id": 9,
+    "route_name": "Ballachrink - Port Erin",
+    "stop_name": "Port Jack, shelter",
     "sequence_number": 3
   },
   {
     "route_stop_id": 21,
-    "route_id": 2,
-    "stop_id": 10,
+    "route_name": "Ballachrink - Port Erin",
+    "stop_name": "Derby Castle, MER Station",
     "sequence_number": 4
   },
   {
     "route_stop_id": 22,
-    "route_id": 2,
-    "stop_id": 11,
+    "route_name": "Ballachrink - Port Erin",
+    "stop_name": "Douglas, Lord Street Stand C, arr *",
     "sequence_number": 5
   },
   {
     "route_stop_id": 23,
-    "route_id": 2,
-    "stop_id": 12,
+    "route_name": "Ballachrink - Port Erin",
+    "stop_name": "Douglas, Lord Street Stand C, dep *",
     "sequence_number": 6
   },
   {
     "route_stop_id": 24,
-    "route_id": 2,
-    "stop_id": 13,
+    "route_name": "Ballachrink - Port Erin",
+    "stop_name": "Groves Road, NSC",
     "sequence_number": 7
   },
   {
     "route_stop_id": 25,
-    "route_id": 2,
-    "stop_id": 14,
+    "route_name": "Ballachrink - Port Erin",
+    "stop_name": "Newtown, Old Chapel",
     "sequence_number": 8
   },
   {
     "route_stop_id": 26,
-    "route_id": 2,
-    "stop_id": 15,
+    "route_name": "Ballachrink - Port Erin",
+    "stop_name": "Ballasalla Railway Station",
     "sequence_number": 9
   },
   {
     "route_stop_id": 27,
-    "route_id": 2,
-    "stop_id": 16,
+    "route_name": "Ballachrink - Port Erin",
+    "stop_name": "Ronaldsway Airport",
     "sequence_number": 10
   },
   {
     "route_stop_id": 28,
-    "route_id": 2,
-    "stop_id": 17,
+    "route_name": "Ballachrink - Port Erin",
+    "stop_name": "Castletown Square, Co-op",
     "sequence_number": 11
   },
   {
     "route_stop_id": 29,
-    "route_id": 2,
-    "stop_id": 18,
+    "route_name": "Ballachrink - Port Erin",
+    "stop_name": "Colby Bridge, Methodist Church",
     "sequence_number": 12
   },
   {
     "route_stop_id": 30,
-    "route_id": 2,
-    "stop_id": 21,
+    "route_name": "Ballachrink - Port Erin",
+    "stop_name": "Port Erin, Railway Station, arr",
     "sequence_number": 13
   },
   {
     "route_stop_id": 31,
-    "route_id": 2,
-    "stop_id": 22,
+    "route_name": "Ballachrink - Port Erin",
+    "stop_name": "Port Erin, Railway Station, dep",
     "sequence_number": 14
   },
   {
     "route_stop_id": 32,
-    "route_id": 2,
-    "stop_id": 23,
+    "route_name": "Ballachrink - Port Erin",
+    "stop_name": "Port St. Mary, Harbour, arr",
     "sequence_number": 15
   },
   {
     "route_stop_id": 33,
-    "route_id": 3,
-    "stop_id": 6,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Royal Avenue, Central Drive",
     "sequence_number": 1
   },
   {
     "route_stop_id": 34,
-    "route_id": 3,
-    "stop_id": 9,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Port Jack, shelter",
     "sequence_number": 2
   },
   {
     "route_stop_id": 35,
-    "route_id": 3,
-    "stop_id": 10,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Derby Castle, MER Station",
     "sequence_number": 3
   },
   {
     "route_stop_id": 36,
-    "route_id": 3,
-    "stop_id": 11,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Douglas, Lord Street Stand C, arr *",
     "sequence_number": 4
   },
   {
     "route_stop_id": 37,
-    "route_id": 3,
-    "stop_id": 12,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Douglas, Lord Street Stand C, dep *",
     "sequence_number": 5
   },
   {
     "route_stop_id": 38,
-    "route_id": 3,
-    "stop_id": 13,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Groves Road, NSC",
     "sequence_number": 6
   },
   {
     "route_stop_id": 39,
-    "route_id": 3,
-    "stop_id": 14,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Newtown, Old Chapel",
     "sequence_number": 7
   },
   {
     "route_stop_id": 40,
-    "route_id": 3,
-    "stop_id": 15,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Ballasalla Railway Station",
     "sequence_number": 8
   },
   {
     "route_stop_id": 41,
-    "route_id": 3,
-    "stop_id": 16,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Ronaldsway Airport",
     "sequence_number": 9
   },
   {
     "route_stop_id": 42,
-    "route_id": 3,
-    "stop_id": 17,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Castletown Square, Co-op",
     "sequence_number": 10
   },
   {
     "route_stop_id": 43,
-    "route_id": 3,
-    "stop_id": 18,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Colby Bridge, Methodist Church",
     "sequence_number": 11
   },
   {
     "route_stop_id": 44,
-    "route_id": 3,
-    "stop_id": 21,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Port Erin, Railway Station, arr",
     "sequence_number": 12
   },
   {
     "route_stop_id": 45,
-    "route_id": 3,
-    "stop_id": 22,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Port Erin, Railway Station, dep",
     "sequence_number": 13
   },
   {
     "route_stop_id": 46,
-    "route_id": 3,
-    "stop_id": 23,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Port St. Mary, Harbour, arr",
     "sequence_number": 14
   },
   {
     "route_stop_id": 47,
-    "route_id": 4,
-    "stop_id": 3,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Willaston, shops",
     "sequence_number": 1
   },
   {
     "route_stop_id": 48,
-    "route_id": 4,
-    "stop_id": 4,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Hailwood Avenue, Cat With No Tail",
     "sequence_number": 2
   },
   {
     "route_stop_id": 49,
-    "route_id": 4,
-    "stop_id": 5,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Birch Hill, shop",
     "sequence_number": 3
   },
   {
     "route_stop_id": 50,
-    "route_id": 4,
-    "stop_id": 6,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Royal Avenue, Central Drive",
     "sequence_number": 4
   },
   {
     "route_stop_id": 51,
-    "route_id": 4,
-    "stop_id": 7,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Ballachrink, shop",
     "sequence_number": 5
   },
   {
     "route_stop_id": 52,
-    "route_id": 4,
-    "stop_id": 9,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Port Jack, shelter",
     "sequence_number": 6
   },
   {
     "route_stop_id": 53,
-    "route_id": 4,
-    "stop_id": 10,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Derby Castle, MER Station",
     "sequence_number": 7
   },
   {
     "route_stop_id": 54,
-    "route_id": 4,
-    "stop_id": 11,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Douglas, Lord Street Stand C, arr *",
     "sequence_number": 8
   },
   {
     "route_stop_id": 55,
-    "route_id": 4,
-    "stop_id": 12,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Douglas, Lord Street Stand C, dep *",
     "sequence_number": 9
   },
   {
     "route_stop_id": 56,
-    "route_id": 4,
-    "stop_id": 13,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Groves Road, NSC",
     "sequence_number": 10
   },
   {
     "route_stop_id": 57,
-    "route_id": 4,
-    "stop_id": 14,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Newtown, Old Chapel",
     "sequence_number": 11
   },
   {
     "route_stop_id": 58,
-    "route_id": 4,
-    "stop_id": 15,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Ballasalla Railway Station",
     "sequence_number": 12
   },
   {
     "route_stop_id": 59,
-    "route_id": 4,
-    "stop_id": 16,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Ronaldsway Airport",
     "sequence_number": 13
   },
   {
     "route_stop_id": 60,
-    "route_id": 4,
-    "stop_id": 17,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Castletown Square, Co-op",
     "sequence_number": 14
   },
   {
     "route_stop_id": 61,
-    "route_id": 4,
-    "stop_id": 19,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Gansey, opposite Shore Hotel",
     "sequence_number": 15
   },
   {
     "route_stop_id": 62,
-    "route_id": 4,
-    "stop_id": 20,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Port St. Mary, Harbour, dep",
     "sequence_number": 16
   },
   {
     "route_stop_id": 63,
-    "route_id": 4,
-    "stop_id": 21,
+    "route_name": "Willaston - Port Erin",
+    "stop_name": "Port Erin, Railway Station, arr",
     "sequence_number": 17
   },
   {
     "route_stop_id": 64,
-    "route_id": 5,
-    "stop_id": 1,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Noble's Hospital, main entrance",
     "sequence_number": 1
   },
   {
     "route_stop_id": 65,
-    "route_id": 5,
-    "stop_id": 2,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Cronkbourne, shelter",
     "sequence_number": 2
   },
   {
     "route_stop_id": 66,
-    "route_id": 5,
-    "stop_id": 4,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Hailwood Avenue, Cat With No Tail",
     "sequence_number": 3
   },
   {
     "route_stop_id": 67,
-    "route_id": 5,
-    "stop_id": 6,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Royal Avenue, Central Drive",
     "sequence_number": 4
   },
   {
     "route_stop_id": 68,
-    "route_id": 5,
-    "stop_id": 9,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Port Jack, shelter",
     "sequence_number": 5
   },
   {
     "route_stop_id": 69,
-    "route_id": 5,
-    "stop_id": 10,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Derby Castle, MER Station",
     "sequence_number": 6
   },
   {
     "route_stop_id": 70,
-    "route_id": 5,
-    "stop_id": 11,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Douglas, Lord Street Stand C, arr *",
     "sequence_number": 7
   },
   {
     "route_stop_id": 71,
-    "route_id": 5,
-    "stop_id": 12,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Douglas, Lord Street Stand C, dep *",
     "sequence_number": 8
   },
   {
     "route_stop_id": 72,
-    "route_id": 5,
-    "stop_id": 13,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Groves Road, NSC",
     "sequence_number": 9
   },
   {
     "route_stop_id": 73,
-    "route_id": 5,
-    "stop_id": 14,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Newtown, Old Chapel",
     "sequence_number": 10
   },
   {
     "route_stop_id": 74,
-    "route_id": 5,
-    "stop_id": 15,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Ballasalla Railway Station",
     "sequence_number": 11
   },
   {
     "route_stop_id": 75,
-    "route_id": 5,
-    "stop_id": 16,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Ronaldsway Airport",
     "sequence_number": 12
   },
   {
     "route_stop_id": 76,
-    "route_id": 5,
-    "stop_id": 17,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Castletown Square, Co-op",
     "sequence_number": 13
   },
   {
     "route_stop_id": 77,
-    "route_id": 5,
-    "stop_id": 19,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Gansey, opposite Shore Hotel",
     "sequence_number": 14
   },
   {
     "route_stop_id": 78,
-    "route_id": 5,
-    "stop_id": 20,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Port St. Mary, Harbour, dep",
     "sequence_number": 15
   },
   {
     "route_stop_id": 79,
-    "route_id": 5,
-    "stop_id": 21,
+    "route_name": "Noble's Hospital - Port Erin",
+    "stop_name": "Port Erin, Railway Station, arr",
     "sequence_number": 16
   }
 ]

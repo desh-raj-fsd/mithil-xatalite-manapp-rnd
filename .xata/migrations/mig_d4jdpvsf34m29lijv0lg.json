@@ -1,0 +1,30 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_d4jdpvsf34m29lijv0lg",
+    "operations": [
+      {
+        "add_column": {
+          "table": "stop_times",
+          "column": {
+            "name": "route_stop_id",
+            "type": "text",
+            "comment": "{\"xata.link\":\"route_stops\"}",
+            "nullable": true,
+            "references": {
+              "name": "route_stop_id_link",
+              "table": "route_stops",
+              "column": "xata_id",
+              "on_delete": "SET NULL"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_d4jdpvsf34m29lijv0lg",
+  "parent": "mig_d4jdodu2nqcg7v1dru20",
+  "schema": "public",
+  "startedAt": "2025-11-26T10:57:03.661071Z"
+}

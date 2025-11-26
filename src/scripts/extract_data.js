@@ -89,24 +89,32 @@ function extractData() {
       route_id: routeIdCounter,
       service_id: service.service_id,
       route_name: service.service_name,
+      service_number: service.service_number,
     });
     routeIdCounter++;
   });
 
   // Step 4: Create RouteStops for each route
   // For each service, extract the sequence of stops
+  const routeIdToName = new Map();
+  routes.forEach((r) => {
+    routeIdToName.set(r.route_id, r.route_name);
+  });
+
   allServiceNumbers.forEach((serviceNum) => {
     const serviceId = serviceNumberToId.get(serviceNum);
     const routeId = serviceId; // In this case, route_id matches service_id
+
+    // Look up the human-readable route name from the routeId
+    const routeName = routeIdToName.get(routeId); // <-- make sure this map exists
 
     let sequenceNumber = 1;
 
     rawData.forEach((row) => {
       const stopName = row.Place;
-      const stopId = stopNameToId.get(stopName);
+      const stopId = stopNameToId.get(stopName); // still used to validate existence
 
       // Check if this service stops at this location
-      // Look for any column that starts with this service number
       const hasStop = Object.keys(row).some((key) => {
         const baseService = key.split("_")[0];
         return (
@@ -114,11 +122,11 @@ function extractData() {
         );
       });
 
-      if (hasStop) {
+      if (hasStop && stopId) {
         routeStops.push({
           route_stop_id: routeStopIdCounter,
-          route_id: routeId,
-          stop_id: stopId,
+          route_name: routeName, // use route_name instead of route_id
+          stop_name: stopName, // use stop_name instead of stop_id
           sequence_number: sequenceNumber,
         });
         routeStopIdCounter++;
@@ -136,6 +144,9 @@ function extractData() {
     const serviceId = serviceNumberToId.get(baseService);
     const routeId = serviceId;
 
+    // Lookup route name from routeId
+    const routeName = routeIdToName.get(routeId);
+
     // Find the first non-empty time in this column to use as start_time
     let startTime = null;
     for (let row of rawData) {
@@ -148,8 +159,8 @@ function extractData() {
     if (startTime) {
       trips.push({
         trip_id: tripIdCounter,
-        route_id: routeId,
-        service_id: serviceId,
+        route_name: routeName, // use route_name instead of route_id
+        service_number: baseService,
         start_time: startTime,
         day_of_week: "Weekday",
         column_reference: columnKey,
@@ -158,15 +169,14 @@ function extractData() {
       // Step 6: Create StopTimes for this trip
       const currentTripId = tripIdCounter;
 
-      // Get all route stops for this route
+      // Get all route stops for this route by route_name
       const routeStopsForRoute = routeStops.filter(
-        (rs) => rs.route_id === routeId
+        (rs) => rs.route_name === routeName
       );
 
       routeStopsForRoute.forEach((routeStop) => {
-        const stopName = stops.find(
-          (s) => s.stop_id === routeStop.stop_id
-        ).stop_name;
+        const stopName = routeStop.stop_name;
+
         const rowData = rawData.find((r) => r.Place === stopName);
 
         const departureTime = rowData[columnKey];
@@ -176,7 +186,7 @@ function extractData() {
           stop_time_id: stopTimeIdCounter,
           trip_id: currentTripId,
           route_stop_id: routeStop.route_stop_id,
-          departure_time: isSkipped ? null : departureTime,
+          departure_time: isSkipped ? null : parseInt(departureTime),
           is_skipped: isSkipped,
         });
 

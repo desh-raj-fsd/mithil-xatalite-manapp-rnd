@@ -1,0 +1,24 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_d4jdrpsf34m29lijv0mg",
+    "operations": [
+      {
+        "add_column": {
+          "table": "stop_times",
+          "column": {
+            "name": "departure_time",
+            "type": "text",
+            "comment": "",
+            "nullable": true
+          }
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_d4jdrpsf34m29lijv0mg",
+  "parent": "mig_d4jdpvsf34m29lijv0lg",
+  "schema": "public",
+  "startedAt": "2025-11-26T11:00:55.390642Z"
+}

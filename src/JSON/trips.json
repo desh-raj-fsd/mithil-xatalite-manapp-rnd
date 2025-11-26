@@ -1,216 +1,216 @@
 [
   {
     "trip_id": 101,
-    "route_id": 1,
-    "service_id": 1,
+    "route_name": "Noble's Hospital - Port Erin",
+    "service_number": "1",
     "start_time": "0851",
     "day_of_week": "Weekday",
     "column_reference": "1"
   },
   {
     "trip_id": 102,
-    "route_id": 2,
-    "service_id": 2,
+    "route_name": "Ballachrink - Port Erin",
+    "service_number": "2",
     "start_time": 918,
     "day_of_week": "Weekday",
     "column_reference": "2"
   },
   {
     "trip_id": 103,
-    "route_id": 3,
-    "service_id": 3,
+    "route_name": "Willaston - Port Erin",
+    "service_number": "12",
     "start_time": "1658",
     "day_of_week": "Weekday",
     "column_reference": "12"
   },
   {
     "trip_id": 104,
-    "route_id": 4,
-    "service_id": 4,
+    "route_name": "Willaston - Port Erin",
+    "service_number": "12a",
     "start_time": 931,
     "day_of_week": "Weekday",
     "column_reference": "12a"
   },
   {
     "trip_id": 105,
-    "route_id": 1,
-    "service_id": 1,
+    "route_name": "Noble's Hospital - Port Erin",
+    "service_number": "1",
     "start_time": 951,
     "day_of_week": "Weekday",
     "column_reference": "1_1"
   },
   {
     "trip_id": 106,
-    "route_id": 2,
-    "service_id": 2,
+    "route_name": "Ballachrink - Port Erin",
+    "service_number": "2",
     "start_time": 1018,
     "day_of_week": "Weekday",
     "column_reference": "2_1"
   },
   {
     "trip_id": 107,
-    "route_id": 4,
-    "service_id": 4,
+    "route_name": "Willaston - Port Erin",
+    "service_number": "12a",
     "start_time": 1031,
     "day_of_week": "Weekday",
     "column_reference": "12a_1"
   },
   {
     "trip_id": 108,
-    "route_id": 1,
-    "service_id": 1,
+    "route_name": "Noble's Hospital - Port Erin",
+    "service_number": "1",
     "start_time": 1051,
     "day_of_week": "Weekday",
     "column_reference": "1_2"
   },
   {
     "trip_id": 109,
-    "route_id": 2,
-    "service_id": 2,
+    "route_name": "Ballachrink - Port Erin",
+    "service_number": "2",
     "start_time": 1118,
     "day_of_week": "Weekday",
     "column_reference": "2_2"
   },
   {
     "trip_id": 110,
-    "route_id": 4,
-    "service_id": 4,
+    "route_name": "Willaston - Port Erin",
+    "service_number": "12a",
     "start_time": 1131,
     "day_of_week": "Weekday",
     "column_reference": "12a_2"
   },
   {
     "trip_id": 111,
-    "route_id": 1,
-    "service_id": 1,
+    "route_name": "Noble's Hospital - Port Erin",
+    "service_number": "1",
     "start_time": 1151,
     "day_of_week": "Weekday",
     "column_reference": "1_3"
   },
   {
     "trip_id": 112,
-    "route_id": 2,
-    "service_id": 2,
+    "route_name": "Ballachrink - Port Erin",
+    "service_number": "2",
     "start_time": 1218,
     "day_of_week": "Weekday",
     "column_reference": "2_3"
   },
   {
     "trip_id": 113,
-    "route_id": 4,
-    "service_id": 4,
+    "route_name": "Willaston - Port Erin",
+    "service_number": "12a",
     "start_time": 1231,
     "day_of_week": "Weekday",
     "column_reference": "12a_3"
   },
   {
     "trip_id": 114,
-    "route_id": 1,
-    "service_id": 1,
+    "route_name": "Noble's Hospital - Port Erin",
+    "service_number": "1",
     "start_time": 1251,
     "day_of_week": "Weekday",
     "column_reference": "1_4"
   },
   {
     "trip_id": 115,
-    "route_id": 2,
-    "service_id": 2,
+    "route_name": "Ballachrink - Port Erin",
+    "service_number": "2",
     "start_time": 1318,
     "day_of_week": "Weekday",
     "column_reference": "2_4"
   },
   {
     "trip_id": 116,
-    "route_id": 4,
-    "service_id": 4,
+    "route_name": "Willaston - Port Erin",
+    "service_number": "12a",
     "start_time": 1331,
     "day_of_week": "Weekday",
     "column_reference": "12a_4"
   },
   {
     "trip_id": 117,
-    "route_id": 1,
-    "service_id": 1,
+    "route_name": "Noble's Hospital - Port Erin",
+    "service_number": "1",
     "start_time": 1351,
     "day_of_week": "Weekday",
     "column_reference": "1_5"
   },
   {
     "trip_id": 118,
-    "route_id": 2,
-    "service_id": 2,
+    "route_name": "Ballachrink - Port Erin",
+    "service_number": "2",
     "start_time": "1418",
     "day_of_week": "Weekday",
     "column_reference": "2_5"
   },
   {
     "trip_id": 119,
-    "route_id": 4,
-    "service_id": 4,
+    "route_name": "Willaston - Port Erin",
+    "service_number": "12a",
     "start_time": "1431",
     "day_of_week": "Weekday",
     "column_reference": "12a_5"
   },
   {
     "trip_id": 120,
-    "route_id": 1,
-    "service_id": 1,
+    "route_name": "Noble's Hospital - Port Erin",
+    "service_number": "1",
     "start_time": "1451",
     "day_of_week": "Weekday",
     "column_reference": "1_6"
   },
   {
     "trip_id": 121,
-    "route_id": 2,
-    "service_id": 2,
+    "route_name": "Ballachrink - Port Erin",
+    "service_number": "2",
     "start_time": "1518",
     "day_of_week": "Weekday",
     "column_reference": "2_6"
   },
   {
     "trip_id": 122,
-    "route_id": 4,
-    "service_id": 4,
+    "route_name": "Willaston - Port Erin",
+    "service_number": "12a",
     "start_time": "1531",
     "day_of_week": "Weekday",
     "column_reference": "12a_6"
   },
   {
     "trip_id": 123,
-    "route_id": 1,
-    "service_id": 1,
+    "route_name": "Noble's Hospital - Port Erin",
+    "service_number": "1",
     "start_time": "1551",
     "day_of_week": "Weekday",
     "column_reference": "1_7"
   },
   {
     "trip_id": 124,
-    "route_id": 2,
-    "service_id": 2,
+    "route_name": "Ballachrink - Port Erin",
+    "service_number": "2",
     "start_time": "1618",
     "day_of_week": "Weekday",
     "column_reference": "2_7"
   },
   {
     "trip_id": 125,
-    "route_id": 4,
-    "service_id": 4,
+    "route_name": "Willaston - Port Erin",
+    "service_number": "12a",
     "start_time": "1626",
     "day_of_week": "Weekday",
     "column_reference": "12a_7"
   },
   {
     "trip_id": 126,
-    "route_id": 5,
-    "service_id": 5,
+    "route_name": "Noble's Hospital - Port Erin",
+    "service_number": "1a",
     "start_time": "1651",
     "day_of_week": "Weekday",
     "column_reference": "1a"
   },
   {
     "trip_id": 127,
-    "route_id": 2,
-    "service_id": 2,
+    "route_name": "Ballachrink - Port Erin",
+    "service_number": "2",
     "start_time": "1718",
     "day_of_week": "Weekday",
     "column_reference": "2_8"

@@ -1,0 +1,57 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_d4jdo662nqcg7v1dru10",
+    "operations": [
+      {
+        "create_table": {
+          "name": "stop_times",
+          "columns": [
+            {
+              "name": "xata_createdat",
+              "type": "timestamptz",
+              "default": "now()"
+            },
+            {
+              "name": "xata_updatedat",
+              "type": "timestamptz",
+              "default": "now()"
+            },
+            {
+              "name": "xata_id",
+              "type": "text",
+              "check": {
+                "name": "stop_times_xata_id_length_xata_id",
+                "constraint": "length(\"xata_id\") < 256"
+              },
+              "unique": true,
+              "default": "'rec_' || xata_private.xid()"
+            },
+            {
+              "name": "xata_version",
+              "type": "integer",
+              "default": "0"
+            }
+          ]
+        }
+      },
+      {
+        "sql": {
+          "up": "ALTER TABLE \"stop_times\" REPLICA IDENTITY FULL",
+          "onComplete": true
+        }
+      },
+      {
+        "sql": {
+          "up": "CREATE TRIGGER xata_maintain_metadata_trigger_pgroll\n  BEFORE INSERT OR UPDATE\n  ON \"stop_times\"\n  FOR EACH ROW\n  EXECUTE FUNCTION xata_private.maintain_metadata_trigger_pgroll()",
+          "onComplete": true
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_d4jdo662nqcg7v1dru10",
+  "parent": "mig_d4jdl1sf34m29lijv0kg",
+  "schema": "public",
+  "startedAt": "2025-11-26T10:53:14.185915Z"
+}

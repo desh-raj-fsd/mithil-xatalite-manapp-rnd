@@ -1,0 +1,24 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_d4jdl1sf34m29lijv0kg",
+    "operations": [
+      {
+        "add_column": {
+          "table": "trips",
+          "column": {
+            "name": "trip_id",
+            "type": "int",
+            "comment": "",
+            "nullable": true
+          }
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_d4jdl1sf34m29lijv0kg",
+  "parent": "mig_d4jdirr4jdncq0hv2ifg",
+  "schema": "public",
+  "startedAt": "2025-11-26T10:46:31.739426Z"
+}
